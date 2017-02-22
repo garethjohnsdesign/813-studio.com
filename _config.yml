@@ -15,7 +15,8 @@ defaults:
   values:
     layout: page
 url: http://813-studio.com
-description: 813 studio is a creative agency servicing brands within the horological industry on matters of branding and content production
+description: 813 studio is a creative agency servicing brands within the horological
+  industry on matters of branding and content production
 permalink: pretty
 exclude:
 - Gruntfile.js
@@ -41,12 +42,12 @@ highlighter: rouge
 company: 813 Studio
 email: enquiries@813-studio.com
 google_site_verification: 
-analytics:
+analytics: 
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%Y"
 future: true
 social:
-  facebook:
-  instagram:
-  twitter:
+  facebook: 
+  instagram: 
+  twitter: 
