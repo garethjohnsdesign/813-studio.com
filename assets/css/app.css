@@ -3213,7 +3213,7 @@ template {
 
 html {
   box-sizing: border-box;
-  font-size: 90%; }
+  font-size: 80%; }
 
 *,
 *::before,
@@ -3272,26 +3272,26 @@ button {
   display: none !important; }
 
 .row {
-  max-width: 83.3333333333rem;
+  max-width: 93.75rem;
   margin-right: auto;
   margin-left: auto;
   display: flex;
   flex-flow: row wrap; }
   .row .row {
-    margin-right: -0.6944444444rem;
-    margin-left: -0.6944444444rem; }
+    margin-right: -0.78125rem;
+    margin-left: -0.78125rem; }
     @media print, screen and (min-width: 40em) {
       .row .row {
-        margin-right: -1.0416666667rem;
-        margin-left: -1.0416666667rem; } }
+        margin-right: -1.171875rem;
+        margin-left: -1.171875rem; } }
     @media print, screen and (min-width: 64em) {
       .row .row {
-        margin-right: -1.0416666667rem;
-        margin-left: -1.0416666667rem; } }
+        margin-right: -1.171875rem;
+        margin-left: -1.171875rem; } }
     @media screen and (min-width: 90em) {
       .row .row {
-        margin-right: -1.0416666667rem;
-        margin-left: -1.0416666667rem; } }
+        margin-right: -1.171875rem;
+        margin-left: -1.171875rem; } }
   .row.expanded {
     max-width: none; }
   .row.collapse > .column, .row.collapse > .columns {
@@ -3305,13 +3305,13 @@ button {
 
 .column, .columns {
   flex: 1 1 0px;
-  padding-right: 0.6944444444rem;
-  padding-left: 0.6944444444rem;
+  padding-right: 0.78125rem;
+  padding-left: 0.78125rem;
   min-width: initial; }
   @media print, screen and (min-width: 40em) {
     .column, .columns {
-      padding-right: 1.0416666667rem;
-      padding-left: 1.0416666667rem; } }
+      padding-right: 1.171875rem;
+      padding-left: 1.171875rem; } }
 
 .column.row.row, .row.row.columns {
   display: flex; }
@@ -3501,8 +3501,8 @@ button {
   padding-left: 0; }
 
 .small-uncollapse > .column, .small-uncollapse > .columns {
-  padding-right: 0.6944444444rem;
-  padding-left: 0.6944444444rem; }
+  padding-right: 0.78125rem;
+  padding-left: 0.78125rem; }
 
 @media print, screen and (min-width: 40em) {
   .medium-1 {
@@ -3649,8 +3649,8 @@ button {
     padding-right: 0;
     padding-left: 0; }
   .medium-uncollapse > .column, .medium-uncollapse > .columns {
-    padding-right: 1.0416666667rem;
-    padding-left: 1.0416666667rem; } }
+    padding-right: 1.171875rem;
+    padding-left: 1.171875rem; } }
 
 @media print, screen and (min-width: 64em) {
   .large-1 {
@@ -3797,8 +3797,8 @@ button {
     padding-right: 0;
     padding-left: 0; }
   .large-uncollapse > .column, .large-uncollapse > .columns {
-    padding-right: 1.0416666667rem;
-    padding-left: 1.0416666667rem; } }
+    padding-right: 1.171875rem;
+    padding-left: 1.171875rem; } }
 
 @media screen and (min-width: 90em) {
   .xxlarge-1 {
@@ -3945,8 +3945,8 @@ button {
     padding-right: 0;
     padding-left: 0; }
   .xxlarge-uncollapse > .column, .xxlarge-uncollapse > .columns {
-    padding-right: 1.0416666667rem;
-    padding-left: 1.0416666667rem; } }
+    padding-right: 1.171875rem;
+    padding-left: 1.171875rem; } }
 
 .shrink {
   flex: 0 0 auto;
@@ -4015,54 +4015,54 @@ h6 {
     color: #cacaca; }
 
 h1 {
-  font-size: 1.6666666667rem;
+  font-size: 1.875rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
 h2 {
-  font-size: 1.3888888889rem;
+  font-size: 1.5625rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
 h3 {
-  font-size: 1.3194444444rem;
+  font-size: 1.484375rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
 h4 {
-  font-size: 1.25rem;
+  font-size: 1.40625rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
 h5 {
-  font-size: 1.1805555556rem;
+  font-size: 1.328125rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
 h6 {
-  font-size: 1.1111111111rem;
+  font-size: 1.25rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
 @media print, screen and (min-width: 40em) {
   h1 {
-    font-size: 3.3333333333rem; }
+    font-size: 3.75rem; }
   h2 {
-    font-size: 2.7777777778rem; }
+    font-size: 3.125rem; }
   h3 {
-    font-size: 2.1527777778rem; }
+    font-size: 2.421875rem; }
   h4 {
-    font-size: 1.7361111111rem; }
+    font-size: 1.953125rem; }
   h5 {
-    font-size: 1.3888888889rem; }
+    font-size: 1.5625rem; }
   h6 {
-    font-size: 1.1111111111rem; } }
+    font-size: 1.25rem; } }
 
 a {
   line-height: inherit;
@@ -4076,9 +4076,9 @@ a {
 
 hr {
   clear: both;
-  max-width: 83.3333333333rem;
+  max-width: 93.75rem;
   height: 0;
-  margin: 1.3888888889rem auto;
+  margin: 1.5625rem auto;
   border-top: 0;
   border-right: 0;
   border-bottom: 1px solid #cacaca;
@@ -4113,7 +4113,7 @@ dl {
 
 blockquote {
   margin: 0 0 1rem;
-  padding: 0.625rem 1.3888888889rem 0 1.3194444444rem;
+  padding: 0.703125rem 1.5625rem 0 1.484375rem;
   border-left: 1px solid #cacaca; }
   blockquote, blockquote p {
     line-height: 1.6;
@@ -4121,7 +4121,7 @@ blockquote {
 
 cite {
   display: block;
-  font-size: 0.9027777778rem;
+  font-size: 1.015625rem;
   color: #8a8a8a; }
   cite:before {
     content: "— "; }
@@ -4135,7 +4135,7 @@ figure {
   margin: 0; }
 
 code {
-  padding: 0.1388888889rem 0.3472222222rem 0.0694444444rem;
+  padding: 0.15625rem 0.390625rem 0.078125rem;
   border: 1px solid #cacaca;
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
@@ -4144,7 +4144,7 @@ code {
 
 kbd {
   margin: 0;
-  padding: 0.1388888889rem 0.2777777778rem 0;
+  padding: 0.15625rem 0.3125rem 0;
   background-color: #e6e6e6;
   font-family: Consolas, "Liberation Mono", Courier, monospace;
   color: #0a0a0a; }
@@ -4157,7 +4157,7 @@ kbd {
   color: #8a8a8a; }
 
 .lead {
-  font-size: 112.5%;
+  font-size: 100%;
   line-height: 1.6; }
 
 .stat {
@@ -4429,15 +4429,15 @@ textarea {
   display: block;
   box-sizing: border-box;
   width: 100%;
-  height: 2.7083333333rem;
-  margin: 0 0 1.1111111111rem;
-  padding: 0.5555555556rem;
+  height: 3.046875rem;
+  margin: 0 0 1.25rem;
+  padding: 0.625rem;
   border: 1px solid #cacaca;
   border-radius: 0;
   background-color: #fefefe;
   box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.1);
   font-family: inherit;
-  font-size: 1.1111111111rem;
+  font-size: 1.25rem;
   font-weight: normal;
   color: #0a0a0a;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
@@ -4476,14 +4476,14 @@ input[type='search'] {
 [type='file'],
 [type='checkbox'],
 [type='radio'] {
-  margin: 0 0 1.1111111111rem; }
+  margin: 0 0 1.25rem; }
 
 [type='checkbox'] + label,
 [type='radio'] + label {
   display: inline-block;
   vertical-align: baseline;
-  margin-left: 0.5555555556rem;
-  margin-right: 1.1111111111rem;
+  margin-left: 0.625rem;
+  margin-right: 1.25rem;
   margin-bottom: 0; }
   [type='checkbox'] + label[for],
   [type='radio'] + label[for] {
@@ -4491,7 +4491,7 @@ input[type='search'] {
 
 label > [type='checkbox'],
 label > [type='radio'] {
-  margin-right: 0.5555555556rem; }
+  margin-right: 0.625rem; }
 
 [type='file'] {
   width: 100%; }
@@ -4499,24 +4499,24 @@ label > [type='radio'] {
 label {
   display: block;
   margin: 0;
-  font-size: 0.9722222222rem;
+  font-size: 1.09375rem;
   font-weight: normal;
   line-height: 1.8;
   color: #0a0a0a; }
   label.middle {
-    margin: 0 0 1.1111111111rem;
-    padding: 0.625rem 0; }
+    margin: 0 0 1.25rem;
+    padding: 0.703125rem 0; }
 
 .help-text {
-  margin-top: -0.5555555556rem;
-  font-size: 0.9027777778rem;
+  margin-top: -0.625rem;
+  font-size: 1.015625rem;
   font-style: italic;
   color: #0a0a0a; }
 
 .input-group {
   display: flex;
   width: 100%;
-  margin-bottom: 1.1111111111rem;
+  margin-bottom: 1.25rem;
   align-items: stretch; }
   .input-group > :first-child {
     border-radius: 0 0 0 0; }
@@ -4560,10 +4560,10 @@ label {
   .input-group-button input,
   .input-group-button button,
   .input-group-button label {
-    height: 2.7777777778rem;
+    height: 3.125rem;
     padding-top: 0;
     padding-bottom: 0;
-    font-size: 1.1111111111rem; }
+    font-size: 1.25rem; }
 
 fieldset {
   margin: 0;
@@ -4572,36 +4572,36 @@ fieldset {
 
 legend {
   max-width: 100%;
-  margin-bottom: 0.5555555556rem; }
+  margin-bottom: 0.625rem; }
 
 .fieldset {
-  margin: 1.25rem 0;
-  padding: 1.3888888889rem;
+  margin: 1.40625rem 0;
+  padding: 1.5625rem;
   border: 1px solid #cacaca; }
   .fieldset legend {
     margin: 0;
-    margin-left: -0.2083333333rem;
-    padding: 0 0.2083333333rem;
+    margin-left: -0.234375rem;
+    padding: 0 0.234375rem;
     background: #0a0a0a; }
 
 select {
-  height: 2.7083333333rem;
-  margin: 0 0 1.1111111111rem;
-  padding: 0.5555555556rem;
+  height: 3.046875rem;
+  margin: 0 0 1.25rem;
+  padding: 0.625rem;
   appearance: none;
   border: 1px solid #cacaca;
   border-radius: 0;
   background-color: #fefefe;
   font-family: inherit;
-  font-size: 1.1111111111rem;
+  font-size: 1.25rem;
   line-height: normal;
   color: #0a0a0a;
   background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' version='1.1' width='32' height='24' viewBox='0 0 32 24'><polygon points='0,0 32,0 16,24' style='fill: rgb%28138, 138, 138%29'></polygon></svg>");
   background-origin: content-box;
-  background-position: right -1.1111111111rem center;
+  background-position: right -1.25rem center;
   background-repeat: no-repeat;
   background-size: 9px 6px;
-  padding-right: 1.6666666667rem;
+  padding-right: 1.875rem;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out; }
   @media screen and (min-width: 0\0) {
     select {
@@ -4632,9 +4632,9 @@ select {
 
 .form-error {
   display: none;
-  margin-top: -0.5555555556rem;
-  margin-bottom: 1.1111111111rem;
-  font-size: 0.8333333333rem;
+  margin-top: -0.625rem;
+  margin-bottom: 1.25rem;
+  font-size: 0.9375rem;
   font-weight: bold;
   color: #cc4b37; }
   .form-error.is-visible {
@@ -4657,7 +4657,7 @@ select {
   padding: 1.25rem 1rem;
   border: 1px solid #e6e6e6;
   border-bottom: 0;
-  font-size: 0.8333333333rem;
+  font-size: 0.9375rem;
   line-height: 1;
   color: #ffffff; }
   :last-child:not(.is-active) > .accordion-title {
@@ -4721,7 +4721,7 @@ select {
     clear: both; }
   .breadcrumbs li {
     float: left;
-    font-size: 0.7638888889rem;
+    font-size: 0.859375rem;
     color: #0a0a0a;
     cursor: default;
     text-transform: uppercase; }
@@ -5266,7 +5266,7 @@ select {
 .responsive-embed, .flex-video {
   position: relative;
   height: 0;
-  margin-bottom: 1.1111111111rem;
+  margin-bottom: 1.25rem;
   padding-bottom: 75%;
   overflow: hidden; }
   .responsive-embed iframe,
@@ -5628,9 +5628,9 @@ select {
   .pagination::after {
     clear: both; }
   .pagination li {
-    margin-right: 0.0694444444rem;
+    margin-right: 0.078125rem;
     border-radius: 0;
-    font-size: 0.9722222222rem;
+    font-size: 1.09375rem;
     display: none; }
     .pagination li:last-child, .pagination li:first-child {
       display: inline-block; }
@@ -5640,25 +5640,25 @@ select {
   .pagination a,
   .pagination button {
     display: block;
-    padding: 0.2083333333rem 0.6944444444rem;
+    padding: 0.234375rem 0.78125rem;
     border-radius: 0;
     color: #0a0a0a; }
     .pagination a:hover,
     .pagination button:hover {
       background: #e6e6e6; }
   .pagination .current {
-    padding: 0.2083333333rem 0.6944444444rem;
+    padding: 0.234375rem 0.78125rem;
     background: #ffffff;
     color: #fefefe;
     cursor: default; }
   .pagination .disabled {
-    padding: 0.2083333333rem 0.6944444444rem;
+    padding: 0.234375rem 0.78125rem;
     color: #cacaca;
     cursor: not-allowed; }
     .pagination .disabled:hover {
       background: transparent; }
   .pagination .ellipsis::after {
-    padding: 0.2083333333rem 0.6944444444rem;
+    padding: 0.234375rem 0.78125rem;
     content: '\2026';
     color: #0a0a0a; }
 
@@ -5844,7 +5844,7 @@ html.is-reveal-open body {
   @media print, screen and (min-width: 40em) {
     .reveal {
       width: 600px;
-      max-width: 83.3333333333rem; } }
+      max-width: 93.75rem; } }
   @media print, screen and (min-width: 40em) {
     .reveal .reveal {
       right: auto;
@@ -5855,15 +5855,15 @@ html.is-reveal-open body {
   @media print, screen and (min-width: 40em) {
     .reveal.tiny {
       width: 30%;
-      max-width: 83.3333333333rem; } }
+      max-width: 93.75rem; } }
   @media print, screen and (min-width: 40em) {
     .reveal.small {
       width: 50%;
-      max-width: 83.3333333333rem; } }
+      max-width: 93.75rem; } }
   @media print, screen and (min-width: 40em) {
     .reveal.large {
       width: 90%;
-      max-width: 83.3333333333rem; } }
+      max-width: 93.75rem; } }
   .reveal.full {
     top: 0;
     left: 0;
@@ -5895,7 +5895,7 @@ html.is-reveal-open body {
   position: relative;
   margin-bottom: 1rem;
   outline: 0;
-  font-size: 0.9722222222rem;
+  font-size: 1.09375rem;
   font-weight: bold;
   color: #fefefe;
   user-select: none; }
@@ -5958,7 +5958,7 @@ html.is-reveal-open body {
   .switch.tiny .switch-paddle {
     width: 3rem;
     height: 1.5rem;
-    font-size: 0.6944444444rem; }
+    font-size: 0.78125rem; }
   .switch.tiny .switch-paddle::after {
     top: 0.25rem;
     left: 0.25rem;
@@ -5972,7 +5972,7 @@ html.is-reveal-open body {
   .switch.small .switch-paddle {
     width: 3.5rem;
     height: 1.75rem;
-    font-size: 0.8333333333rem; }
+    font-size: 0.9375rem; }
   .switch.small .switch-paddle::after {
     top: 0.25rem;
     left: 0.25rem;
@@ -5986,7 +5986,7 @@ html.is-reveal-open body {
   .switch.large .switch-paddle {
     width: 5rem;
     height: 2.5rem;
-    font-size: 1.1111111111rem; }
+    font-size: 1.25rem; }
   .switch.large .switch-paddle::after {
     top: 0.25rem;
     left: 0.25rem;
@@ -6003,7 +6003,7 @@ table {
     border: 1px solid #f1f1f1;
     background-color: #fefefe; }
   caption {
-    padding: 0.5555555556rem 0.6944444444rem 0.6944444444rem;
+    padding: 0.625rem 0.78125rem 0.78125rem;
     font-weight: bold; }
   thead {
     background: #f8f8f8;
@@ -6014,11 +6014,11 @@ table {
   thead tr, tfoot tr {
     background: transparent; }
   thead th, thead td, tfoot th, tfoot td {
-    padding: 0.5555555556rem 0.6944444444rem 0.6944444444rem;
+    padding: 0.625rem 0.78125rem 0.78125rem;
     font-weight: bold;
     text-align: left; }
   tbody th, tbody td {
-    padding: 0.5555555556rem 0.6944444444rem 0.6944444444rem; }
+    padding: 0.625rem 0.78125rem 0.78125rem; }
   tbody tr:nth-child(even) {
     border-bottom: 0;
     background-color: #f1f1f1; }
@@ -6098,7 +6098,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   .tabs-title > a {
     display: block;
     padding: 1.25rem 1.5rem;
-    font-size: 0.8333333333rem;
+    font-size: 0.9375rem;
     line-height: 1;
     color: #ffffff; }
     .tabs-title > a:hover {
