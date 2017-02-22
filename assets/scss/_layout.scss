@@ -71,9 +71,9 @@ i, cite, em, var, address, dfn {
   padding: 2rem;
 }
 
-.dark {
-  background-color: $color--black;
+.light {
+  background-color: $color--white;
   a {
-  color: $color--white;
+  color: $color--black;
   }
 }

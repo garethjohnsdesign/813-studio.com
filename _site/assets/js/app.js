@@ -30,7 +30,13 @@ $(document).foundation();
 	
 		
 $('a').mouseenter(function(){
-	$('body').addClass('dark');
+	$('body').addClass('light');
 }).mouseleave(function(){
-	$('body').removeClass('dark');
+	$('body').removeClass('light');
+});
+
+$('a').click(function(){
+	$('body').addClass('light');
+}).mouseleave(function(){
+	$('body').removeClass('light');
 });
