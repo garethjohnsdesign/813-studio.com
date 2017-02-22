@@ -1,0 +1,79 @@
+//  Table of Contents:
+//
+//   1. Global
+//   2. Typography
+//   3. 404
+//   4. Navigation
+//   5. Sections
+//   6. Excerpt
+//   7. Page
+//   8. Contact
+
+// 1. Global
+// ---------
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    animation: fadeIn 1000ms;
+    transition: $primary-transition;
+}
+
+:focus {
+outline: 0;
+}
+
+body {
+  cursor: default;
+}
+
+svg {
+  max-width: 100%;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+::selection {
+  background: $color--black;
+  color: $color--white;
+}
+
+a { 
+  transition: $primary-transition;
+}
+
+
+// 2. Typography
+// -------------
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+// 3. 404
+// ------
+
+
+.container {
+  height: 100vh;
+}
+
+.footer {
+  padding: 2rem;
+}
+
+.dark {
+  background-color: $color--black;
+  a {
+  color: $color--white;
+  }
+}

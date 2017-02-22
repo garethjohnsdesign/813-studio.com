@@ -1,0 +1,37 @@
+// Colors
+// ------
+
+// Highlight Colors
+
+// Neutral Colors
+$color--black: #000000;
+$color--darkest-gray: #333333;
+$color--darker-gray: #5A6575;
+$color--dark-gray: #666666;
+$color--gray: #9B9B9B;
+$color--light-gray: #d6d6d6;
+$color--lighter-gray: #f8f8f8;
+$color--lightest-gray: #EDEDEA;
+$color--white: #ffffff;
+
+
+// Typography
+// ----------
+
+$line-height--tighter: 1;
+$line-height--tight: 1.16;
+$line-height--base: 1.6;
+
+$letter-spacing--tighter: -0.027em;
+$letter-spacing--tight: -0.018em;
+$letter-spacing--looser: 0.15em;
+$letter-spacing--loose: 0.018em;
+
+
+// Miscellaneous
+// -------------
+
+// Transitions
+// -------------
+
+$primary-transition: all .35s cubic-bezier(.39, .575, .565, 1);
