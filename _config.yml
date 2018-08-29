@@ -19,17 +19,17 @@ description: 813 studio is a creative agency servicing brands within the horolog
   industry on matters of branding and content production
 permalink: pretty
 exclude:
-- Gruntfile.js
-- Gemfile
+- bower.json
 - Gemfile.lock
 - package.json
+- config.codekit3
 - README*
+- LICENSE*
+- CHANGELOG*
 - node_modules
 - ".gitignore"
 - bower_components
-- config.codekit3
-- CHANGELOG.md
-- LICENSE.md
+- assets/scss
 gems:
 - jekyll-seo-tag
 - jekyll-sitemap
