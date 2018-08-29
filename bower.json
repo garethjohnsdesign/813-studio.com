@@ -9,11 +9,12 @@
   "license": "MIT",
   "homepage": "http://foundation.zurb.com",
   "dependencies": {
-    "foundation-sites": "^6.3.0",
-    "motion-ui": "~1.2.2",
-    "what-input": "^2.1.0",
-    "wow": "wowjs#^1.1.2",
-    "svgxuse": "^1.1.23"
+    "foundation-sites": "^6.4.3",
+    "motion-ui": "^2.0.3",
+    "what-input": "^5.1.1",
+    "wow": "^1.1.2",
+    "svgxuse": "^1.2.6",
+    "jquery": "^3.3.1"
   },
   "ignore": [
     "**/.*",
@@ -24,6 +25,8 @@
   ],
   "private": true,
   "resolutions": {
-    "what-input": "~4.0.3"
+    "what-input": "^5.1.1",
+    "motion-ui": "^2.0.3",
+    "jquery": "^3.3.1"
   }
 }

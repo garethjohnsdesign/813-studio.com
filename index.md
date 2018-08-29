@@ -2,7 +2,5 @@
 title: 813 Studio
 position: 0
 image: "/assets/img/og-image.png"
-layout: index
+layout: home
 ---
-
-Test
