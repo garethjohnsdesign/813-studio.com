@@ -55,7 +55,6 @@ $motion-ui-settings: (
   hinge-and-fade: true,
   scale-and-fade: true,
   spin-and-fade: true,
-  pause-queue-class: 'is-paused',
   activate-queue-class: 'is-animating'
 );
 ```

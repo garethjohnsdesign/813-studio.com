@@ -1,0 +1,22 @@
+<div class="excerpt">
+    {% if client.website %}
+    <a href="{{ client.website }}" target="_blank">
+    {% elsif client.facebook %}
+    <a href="{{ client.facebook }}" target="_blank">
+    {% else %}
+    <a href="{{ client.twitter }}" target="_blank">
+    {% endif %}
+    
+    <div class="grid-x align-center-middle excerpt__title">
+      <div class="small-12 cell text-center">
+        <h5 class="margin-bottom-0">{{ client.title }}</h5>
+      </div>
+    </div>  
+    
+    <div class="excerpt__image">
+      {% assign image = client.image %}
+      {% include images/excerpt.html %}
+    </div>
+  
+    </a>
+</div>

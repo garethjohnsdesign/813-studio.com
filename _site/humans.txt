@@ -1,9 +1,9 @@
-Gareth Johns Art Direction + Design
+Gareth Johns Design + Development
 
 The team, technology & tools behind this site.
 
 
-GARETH JOHNS ART DIRECTION + DESIGN TEAM
+GARETH JOHNS DESIGN + DEVELOPMENT TEAM
 --------
 
 Made with love in London.
@@ -21,6 +21,9 @@ Skylar Challand
 
 TECHNOLOGY
 ----------
+
+Codekit - File Processor
+codekitapp.com
 
 Siteleaf - Content management system
 siteleaf.com

@@ -78,11 +78,11 @@ Begin your series with the `mui-series()` mixin. Inside this mixin, attach anima
 ```scss
 @include mui-series {
   // 2 second shake
-  .my-queue-shake     { @include mui-queue(2s, 0s, shake); }
+  .shake    { @include mui-queue(2s, 0s, shake); }
   // 1 second spin with a 2 second pause
-  .my-queue-spin      { @include mui-queue(1s, 2s, spin); }
+  .spin     { @include mui-queue(1s, 2s, spin); }
   // 1 second zoom and fade
-  .my-queue-fade-zoom { @include mui-queue(1s, 0s, fade, zoom); }
+  .fade-zoom { @include mui-queue(1s, 0s, fade, zoom); }
 }
 ```
 
@@ -91,13 +91,13 @@ To add a delay to the start of the queue, add the length in seconds to the `mui-
 ```scss
 // 2 second delay before the first shake
 @include mui-series(2s) {
-  .my-queue-shake     { @include mui-queue(2s, 0s, shake()); }
-  .my-queue-spin      { @include mui-queue(1s, 2s, spin()); }
-  .my-queue-wiggle    { @include mui-queue(wiggle); }
+  .shake  { @include mui-queue(2s, 0s, shake()); }
+  .spin   { @include mui-queue(1s, 2s, spin()); }
+  .wiggle { @include mui-queue(wiggle); }
 }
 ```
 
-**To play the queue**, add the class `.is-animating` to the parent container. This can be done easily in JavaScript:
+To trigger the queue, add the class `.is-animating` to the parent container. This can be done easily in JavaScript:
 
 ```js
 // Plain JavaScript (IE10+)
@@ -106,10 +106,6 @@ document.querySelector('.animation-wrapper').classList.add('is-animating');
 // jQuery
 $('.animation-wrapper').addClass('is-animating');
 ```
-
-**To pause the queue**, add `.is-paused` to the parent container (without removing `.is-animating`). For macOS Safari to correctly play pause the animation, `.is-paused` must not be set by default but only after `.is-animating`. See https://git.io/motion-ui-97.
-
-**To reset the queue** to its initial state, remove `.is-animating` and `.is-paused` from the parent container. The queue can then be started again.
 
 ## Use with WOW.js
 
@@ -125,7 +121,7 @@ Creates a keyframe from one or more effect functions and assigns it to the eleme
 
 **Parameters:**
 
-- `effects...` (Arglist) - One or more effect functions to build the keyframe with.
+- `effects...` (Function) - One or more effect functions to build the keyframe with.
 
 
 ### mui-keyframes()
@@ -135,7 +131,7 @@ Creates a keyframe from one or more effect functions. Use this function instead 
 **Parameters:**
 
 - `name` (String) - Name of the keyframe.
-- `effects...` (Arglist) - One or more effect functions to build the keyframe with.
+- `effects...` (Function) - One or more effect functions to build the keyframe with.
 
 
 ### mui-series()
@@ -155,7 +151,7 @@ Adds an animation to an animation queue. Only use this mixin inside of `mui-seri
 
 - `duration` (Duration) - Length of the animation. (**Default:** 1s)
 - `gap` (Duration) - Amount of time to pause before playing the animation after this one. Use a negative value to make the next effect overlap with the current one. (**Default:** 0s)
-- `keyframes...` (Arglist) - One or more effect functions to build the keyframe with.
+- `keyframes...` (Function) - One or more effect functions to build the keyframe with.
 
 
 ## Functions
@@ -181,7 +177,7 @@ Creates a hinge effect by rotating the element.
 - `from` (Keyword) - Edge of the element to rotate from. Can be `top`, `right`, `bottom`, or `left`. (**Default:** left)
 - `axis` (Keyword) - Axis of the element to rotate on. Can be `edge` or `center`. (**Default:** edge)
 - `perspective` (Number) - Perceived distance between the viewer and the element. A higher number will make the rotation effect more pronounced. (**Default:** 2000px)
-- `turn-origin` (Keyword) - Side of the element to start the rotation from. Can be `from-back` or `from-front`. By default `from-back` and `from-front` for `in` and `out` states respectively. (**Default:** null)
+- `turn-origin` (Keyword) - Side of the element to start the rotation from. Can be `from-back` or `from-front`. (**Default:** from-back)
 
 
 ### shake()
@@ -200,7 +196,7 @@ Creates a sliding animation.
 **Parameters:**
 
 - `state` (Keyword) - Whether to move to (`in`) or from (`out`) the element's default position. (**Default:** in)
-- `direction` (Keyword) - Direction to move. Can be `up`, `right`, `down`, or `left`. By default `left` and `right` for `in` and `out` states respectively. (**Default:** null)
+- `direction` (Keyword) - Direction to move. Can be `up`, `down`, `left`, or `right`. (**Default:** up)
 - `amount` (Number) - Distance to move. Can be any CSS length unit. (**Default:** 100%)
 
 
@@ -210,7 +206,7 @@ Creates a spinning animation.
 
 **Parameters:**
 
-- `direction` (Keyword) - Direction to spin. Should be `cw` (clockwise) or `ccw` (counterclockwise). By default `cw` and `ccw` for `in` and `out` states respectively. (**Default:** null)
+- `direction` (Keyword) - Direction to spin. Should be `cw` (clockwise) or `ccw` (counterclockwise). (**Default:** cw)
 - `amount` (Number) - Amount to spin. Can be any CSS angle unit. (**Default:** 360deg)
 
 
@@ -229,6 +225,6 @@ Creates a scaling transition. A scale of `1` means the element is the same size.
 
 **Parameters:**
 
-- `from` (Number) - Size to start at. (**Default:** 0)
+- `from` (Number) - Size to start at. (**Default:** 1.5)
 - `to` (Number) - Size to end at. (**Default:** 1)
 

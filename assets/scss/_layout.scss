@@ -1,53 +1,85 @@
 //  Table of Contents:
 //
-//   1. Global
-//   2. Typography
-//   3. 404
-//   4. Navigation
-//   5. Sections
-//   6. Excerpt
-//   7. Page
-//   8. Contact
+//   1. Mixins
+//   2. Global
+//   3. Plugins
+//   4. Color
+//   5. Typography
+//   6. Navigation
+//   7. Off-canvas
+//   8. Layout
+//   9. Home
+//   10. Menu / Food
+//   11. Find Us
+//   12. Story
+//   13. Hire Us
+//   14. Contact
+//   15. Page
+//   16. Footer
 
-// 1. Global
+
+// 1. Mixins
 // ---------
 
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
 }
 
-:focus {
-outline: 0;
-}
+// 2. Global
+// ---------
 
 body {
   cursor: default;
+  font-kerning: normal;
 }
 
 svg {
   max-width: 100%;
 }
 
-img {
-  display: block;
-  max-width: 100%;
-  height: auto;
-}
-
 ::selection {
-  background: $color--black;
-  color: $color--white;
+  background: $primary-color;
+  color: $black;
 }
 
-a { 
-  transition: $primary-transition;
+:focus {
+  outline: 0;
 }
 
+// 3. Plugins
+// ----------
 
-// 2. Typography
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: $primary-color;
+}
+
+// 4. Color
+// --------
+
+.white {
+  color: $white;
+}
+
+.primary-color {
+  color: get-color(primary);
+}
+
+.secondary-color {
+  color: get-color(secondary);
+}
+
+// 5. Typography
 // -------------
+
+.underline {
+  border-bottom: 1px solid $black;
+}
 
 .uppercase {
   text-transform: uppercase;
@@ -57,21 +89,28 @@ i, cite, em, var, address, dfn {
   font-style: normal;
 }
 
-// 3. 404
-// ------
-
-
-.container {
-  height: 100vh;
+p a {
+  border-bottom: 1px solid $black;
 }
+
+.primary-font {
+  font-family: $primary-font-family;
+}
+
+.secondary-font {
+  font-family: $secondary-font-family;
+}
+
+// 6. Navigation
+// -------------
 
 .footer {
   padding: 2rem;
 }
 
 .light {
-  background-color: $color--white;
+  background-color: $white;
   a {
-  color: $color--black;
+  color: $black;
   }
 }

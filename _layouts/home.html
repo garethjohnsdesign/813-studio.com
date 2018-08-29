@@ -2,20 +2,23 @@
 layout: default
 ---
 
-<div class="row expanded container">
-  <div class="column flex-container align-justify flex-dir-column text-center">
-    
-    <div class="flex-child-shrink">
-    </div>
-    
-    <div class="flex-child-shrink">
-
+<div class="grid-y" style="height: 100vh;">
+  
+  <div class="auto cell text-center">
+    <div class="grid-y height-100 align-center" ==>
+      <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-up">
+        <div class="small-12 cell">
           <a href="mailto:{{site.email}}"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
+        </div>
+      </div>
     </div>
-    
-    <div class="flex-child-shrink text-center footer">
-      <a href="mailto:{{site.email}}">{{site.email}}</a>
+  </div>
+  
+  <div class="shrink cell text-center">
+    <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 cell">
+          <a href="mailto:{{site.email}}">{{site.email}}</a>
+        </div>
     </div>
-    
   </div>
 </div>

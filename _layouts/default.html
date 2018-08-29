@@ -1,3 +1,7 @@
+---
+layout: compress
+---
+
 <!DOCTYPE html>
 <html class="no-js" lang="en" dir="ltr">
 
@@ -5,14 +9,10 @@
 {% include head.html %}
 <!-- End Head -->
 
-<body>
-
+<body class="{{page.layout | slugify}}">
+<!-- Content -->
 {{ content }}
-
+<!-- End Content -->
 </body>
-
-<!-- Scripts -->
-{% include scripts.html %}
-<!-- End Scripts -->
 
 </html>
