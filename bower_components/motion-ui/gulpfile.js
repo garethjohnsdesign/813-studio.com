@@ -1,6 +1,5 @@
 var $             = require('gulp-load-plugins')();
 var gulp          = require('gulp');
-var autoprefixer  = require('autoprefixer');
 var rimraf        = require('rimraf').sync;
 var sequence      = require('run-sequence');
 var supercollider = require('supercollider');
@@ -8,8 +7,7 @@ var supercollider = require('supercollider');
 var COMPATIBILITY = [
   'last 2 versions',
   'ie >= 10',
-  'android >= 4.4',
-  'ios >= 7'
+  'and_chr >= 2.3'
 ];
 
 supercollider
@@ -36,9 +34,9 @@ gulp.task('docs', function() {
 gulp.task('sass', function() {
   return gulp.src('./motion-ui.scss')
     .pipe($.sass().on('error', $.sass.logError))
-    .pipe($.postcss([
-      autoprefixer({ browsers: COMPATIBILITY })
-    ]))
+    .pipe($.autoprefixer({
+      browsers: COMPATIBILITY
+    }))
     .pipe(gulp.dest('./_build'));
 });
 

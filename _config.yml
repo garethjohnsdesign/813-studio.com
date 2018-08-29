@@ -8,15 +8,8 @@ collections:
   uploads:
     title: Uploads
     output: false
-defaults:
-- scope:
-    path: ''
-    type: pages
-  values:
-    layout: page
-url: http://813-studio.com
-description: 813 studio is a creative agency servicing brands within the horological
-  industry on matters of branding and content production
+url: https://www.813-studio.com
+description: 813 studio is a creative agency servicing brands within the horological industry on matters of branding and content production
 permalink: pretty
 exclude:
 - bower.json
@@ -30,10 +23,11 @@ exclude:
 - ".gitignore"
 - bower_components
 - assets/scss
-gems:
+plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
+- jekyll/imgix
 markdown: kramdown
 kramdown:
   input: GFM
@@ -41,13 +35,22 @@ kramdown:
 highlighter: rouge
 company: 813 Studio
 email: enquiries@813-studio.com
-google_site_verification: 
-analytics: 
+google_site_verification:
+analytics:
 logo: "/assets/img/logo.svg"
 per_page: 12
-date_format: "%Y"
+date_format: "%b %d, %Y"
 future: true
 social:
-  facebook: 
-  instagram: 
-  twitter: 
+  facebook:
+  instagram:
+  twitter:
+  linkedin:
+compress_html:
+  comments:
+  - "<!-- "
+  - " -->"
+  blanklines: true
+  profile: false
+imgix:
+  source: 813-studio.imgix.net

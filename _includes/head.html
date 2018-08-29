@@ -4,7 +4,6 @@
   <meta name="google" content="notranslate" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="generator" content="Siteleaf, http://siteleaf.com" />
 
   {% seo title=false %}
   <title>{{ page.title }}{% if page.url != '/' %} - {{ site.title }}{% endif %}</title>
@@ -14,14 +13,22 @@
   <link rel="icon" type="image/png" href="/assets/favicons/favicon-32x32.png" sizes="32x32">
   <link rel="icon" type="image/png" href="/assets/favicons/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="/assets/favicons/manifest.json">
-  <meta name="theme-color" content="#f2f2f2">
-
+  <link rel="mask-icon" href="/assets/favicons/safari-pinned-tab.svg" color="#e32117">
+  <link rel="shortcut icon" href="/assets/favicons/favicon.ico">
+  <meta name="msapplication-config" content="/assets/favicons/browserconfig.xml">
+  <meta name="theme-color" content="#ffffff">
+  
   <link rel="stylesheet" type="text/css" href="{{ "/assets/css/app.css" | prepend: site.baseurl }}">
-
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
   
+  <!-- Scripts -->
+  {% include scripts.html %}
+  <!-- End Scripts -->
+  
+  <!-- Google Analytics -->
   {% if site.analytics %}
   {% include analytics.html %}
   {% endif %}
+  <!-- End Google Analytics -->
 </head>
