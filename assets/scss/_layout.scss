@@ -54,11 +54,6 @@ svg {
 // 3. Plugins
 // ----------
 
-.turbolinks-progress-bar {
-  height: 5px;
-  background-color: $primary-color;
-}
-
 // 4. Color
 // --------
 
@@ -78,7 +73,7 @@ svg {
 // -------------
 
 .underline {
-  border-bottom: 1px solid $black;
+  border-bottom: 1px solid $white;
 }
 
 .uppercase {
@@ -93,12 +88,12 @@ p a {
   border-bottom: 1px solid $black;
 }
 
-.primary-font {
-  font-family: $primary-font-family;
+.sans-regular {
+  font-family: $sans-regular;
 }
 
-.secondary-font {
-  font-family: $secondary-font-family;
+.serif-regular {
+  font-family: $serif-regular;
 }
 
 // 6. Navigation
@@ -113,4 +108,49 @@ p a {
   a {
   color: $black;
   }
+}
+
+// Extras
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+  > .content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+height: 100%;
+width: 100%;
+  }
+}
+
+.image {
+  @include aspect-ratio (16, 9);
+  background-size: cover; 
+  background-position: 50%;
+  background-color: $light-gray;
+}
+
+header {
+  @include breakpoint(small) {
+    @include padding(1, 1, 1, 1);
+  }
+  @include breakpoint(medium) {
+    @include padding(1, 1, null, 1);
+  }
+  @include breakpoint(large) {
+    @include padding(1, 2, null, 2);
+  }
+/*
+  @include breakpoint(xxlarge) {
+    @include padding(2, 4, null, 4);
+  }
+*/
 }

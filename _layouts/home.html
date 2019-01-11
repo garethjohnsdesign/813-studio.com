@@ -2,23 +2,40 @@
 layout: default
 ---
 
-<div class="grid-y" style="height: 100vh;">
-  
-  <div class="auto cell text-center">
-    <div class="grid-y height-100 align-center" ==>
-      <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-up">
-        <div class="small-12 cell">
-          <a href="mailto:{{site.email}}"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
-        </div>
-      </div>
+<div class="orbit" role="region" data-orbit data-options="animInFromLeft:slide-in-left; animInFromRight:slide-in-right; animOutToLeft:slide-out-left; animOutToRight:slide-out-right;">
+  <div class="orbit-wrapper">
+    
+<!--
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-fiber_manual_record"><use xlink:href="/assets/icons/symbol-defs.svg#icon-fiber_manual_record"></use></svg></button>
+      <button class="orbit-next"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-fiber_manual_record"><use xlink:href="/assets/icons/symbol-defs.svg#icon-fiber_manual_record"></use></svg></button>
     </div>
-  </div>
-  
-  <div class="shrink cell text-center">
-    <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 cell">
-          <a href="mailto:{{site.email}}">{{site.email}}</a>
+-->
+    
+    <ul class="orbit-container">      
+      {% assign works = site.work | sort: 'position' | where: "is-featured", "true" %}
+      {% for work in works %}
+      <li class="orbit-slide">
+      
+        <div class="grid-y align-center" style="height: 80vh;">
+          <div class="shrink cell">
+
+            <div class="grid-x align-center">
+              <div class="small-12 medium-7 cell text-center">
+                <a href="{{ work.url }}">
+                  {% assign image = work.image %}
+                  <div class="margin-bottom-3 light-gray-background image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div>
+                  <div class="sans-regular white margin-top-1">{{ work.client }} — <span class="dark-gray">{{ work.title }}</span></div>
+                </a>
+              </div>
+            </div>
+        
+          </div>
         </div>
-    </div>
+
+      </li>
+      {% endfor %}
+    </ul>
+
   </div>
 </div>

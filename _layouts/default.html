@@ -3,16 +3,39 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html class="no-js" lang="en" dir="ltr">
+<html lang="en" dir="ltr">
 
 <!-- Head -->
-{% include head.html %}
+{% include site/head.html %}
 <!-- End Head -->
 
 <body class="{{page.layout | slugify}}">
+
+<!-- Off Canvas Wrapper -->
+<div class="off-canvas-wrapper">
+<!-- Off Canvas Right -->
+<div class="off-canvas position-right" id="offCanvasMenu" data-off-canvas data-transition="overlap" data-close-on-click="true" data-auto-focus="false">
+{% include off-canvas/menu.html %}
+</div>
+<!-- End Off Canvas Right -->
+
+<!-- Off-Canvas Content -->
+<div class="off-canvas-content" data-off-canvas-content>
+<!-- Header -->
+{% include site/header.html %}
+<!-- End Header -->
+
+<main id="main" class="swup-transition-fade-up">
 <!-- Content -->
-{{ content }}
+{{content}}
 <!-- End Content -->
+</main>
+
+</div>
+<!-- End Off-Canvas Content -->
+</div>
+<!-- End Off-Canvas Wrapper -->
+
 </body>
 
 </html>
