@@ -36,24 +36,11 @@
   <script defer src="/assets/js/min/app-min.js"></script>
 <script defer src="/assets/js/min/svgxuse-min.js"></script>
 </head>
-<body class="project">
-<div class="off-canvas-wrapper">
-<div class="off-canvas position-right" id="offCanvasMenu" data-off-canvas data-transition="overlap" data-close-on-click="true" data-auto-focus="false">
-<div class="grid-x grid-padding-x grid-padding-y padding-2">
-  <div class="small-12 cell">
-      <ul class="vertical menu" data-accordion-menu>
-        <li ><a href="/about/" class="h4" data-toggle="offCanvasMenu">About</a></li>
-        <li class="active"><a href="/work/" class="h4" data-toggle="offCanvasMenu">Work</a></li>
-        <li ><a href="/culture/" class="h4" data-toggle="offCanvasMenu">Culture</a></li>
-        <li ><a href="/contact/" class="h4" data-toggle="offCanvasMenu">Contact</a></li>
-    </ul>
-  </div>
-</div>
-</div>
-<div class="off-canvas-content" data-off-canvas-content>
-<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle text-center" id="maintest">
+<body class="project grid-y grid-padding-x" style="height: 100vh;">
+  <div class="cell shrink" style="z-index: 2000">
+<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle" id="maintest">
   <div class="shrink cell">
-  <a data-toggle="offCanvasMenu" style="z-index: 1001"><svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a>
+  <a data-open="navigation"><svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a>
   </div>
   <div class="shrink cell">
   <a href="/"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
@@ -62,7 +49,10 @@
   <a href="/"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a>
   </div>
 </header>
-<main id="main" class="swup-transition-fade-up">
+  </div>
+  <div class="cell auto">
+    <main class="grid-x grid-padding-x align-middle" style="min-height: 100%">
+      <div class="cell">
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 cell">
@@ -77,8 +67,8 @@
 [/uploads/michael-hill-01.jpg, xxlarge],
 [/uploads/michael-hill-01.jpg, xxlarge-retina]" class="image">
         <div class="grid-y height-100 align-center video content">
-          <div class="shrink cell text-center" data-src="https://www.youtube.com/watch?v=5NyAhWc8d8Q&t=9s">
-            <a href="https://www.youtube.com/watch?v=5NyAhWc8d8Q&t=9s" class="white"><svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
+          <div class="shrink cell text-center" data-src="https://www.youtube.com/watch?v=cyWTTgpfuQw">
+            <a href="https://www.youtube.com/watch?v=cyWTTgpfuQw" class="white"><svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></a>
           </div>
         </div>
       </div>
@@ -103,17 +93,32 @@
   <div class="grid-x grid-padding-x grid-padding-y">
       <div class="small-12 medium-4  cell text-center">
         <a href="/work/a-collected-man-stephen-bayley/">
-          <div class="margin-bottom-2 light-gray-background image" data-interchange="[/uploads/stephen-bayley.jpg, small],
-[/uploads/stephen-bayley.jpg, retina],
-[/uploads/stephen-bayley.jpg, medium],
-[/uploads/stephen-bayley.jpg, medium-retina],
-[/uploads/stephen-bayley.jpg, large],
-[/uploads/stephen-bayley.jpg, large-retina],
-[/uploads/stephen-bayley.jpg, xlarge],
-[/uploads/stephen-bayley.jpg, xlarge-retina],
-[/uploads/stephen-bayley.jpg, xxlarge],
-[/uploads/stephen-bayley.jpg, xxlarge-retina]"></div>
+          <div class="margin-bottom-2 light-gray-background image" data-interchange="[/uploads/stephen-bayley-03.jpg, small],
+[/uploads/stephen-bayley-03.jpg, retina],
+[/uploads/stephen-bayley-03.jpg, medium],
+[/uploads/stephen-bayley-03.jpg, medium-retina],
+[/uploads/stephen-bayley-03.jpg, large],
+[/uploads/stephen-bayley-03.jpg, large-retina],
+[/uploads/stephen-bayley-03.jpg, xlarge],
+[/uploads/stephen-bayley-03.jpg, xlarge-retina],
+[/uploads/stephen-bayley-03.jpg, xxlarge],
+[/uploads/stephen-bayley-03.jpg, xxlarge-retina]"></div>
           <div class="sans-regular white">A Collected Man — <span class="dark-gray">Stephen Bayley</span></div>
+        </a>
+      </div>
+      <div class="small-12 medium-4  cell text-center">
+        <a href="/work/omega-craig-muir/">
+          <div class="margin-bottom-2 light-gray-background image" data-interchange="[/uploads/craig-muir-03.jpg, small],
+[/uploads/craig-muir-03.jpg, retina],
+[/uploads/craig-muir-03.jpg, medium],
+[/uploads/craig-muir-03.jpg, medium-retina],
+[/uploads/craig-muir-03.jpg, large],
+[/uploads/craig-muir-03.jpg, large-retina],
+[/uploads/craig-muir-03.jpg, xlarge],
+[/uploads/craig-muir-03.jpg, xlarge-retina],
+[/uploads/craig-muir-03.jpg, xxlarge],
+[/uploads/craig-muir-03.jpg, xxlarge-retina]"></div>
+          <div class="sans-regular white">Omega — <span class="dark-gray">Craig Muir</span></div>
         </a>
       </div>
       <div class="small-12 medium-4  cell text-center">
@@ -131,25 +136,22 @@
           <div class="sans-regular white">Omega — <span class="dark-gray">Michael Hill</span></div>
         </a>
       </div>
-      <div class="small-12 medium-4  cell text-center">
-        <a href="/work/omega-pete-reed/">
-          <div class="margin-bottom-2 light-gray-background image" data-interchange="[/uploads/test-pete-reed-omega-02.jpg, small],
-[/uploads/test-pete-reed-omega-02.jpg, retina],
-[/uploads/test-pete-reed-omega-02.jpg, medium],
-[/uploads/test-pete-reed-omega-02.jpg, medium-retina],
-[/uploads/test-pete-reed-omega-02.jpg, large],
-[/uploads/test-pete-reed-omega-02.jpg, large-retina],
-[/uploads/test-pete-reed-omega-02.jpg, xlarge],
-[/uploads/test-pete-reed-omega-02.jpg, xlarge-retina],
-[/uploads/test-pete-reed-omega-02.jpg, xxlarge],
-[/uploads/test-pete-reed-omega-02.jpg, xxlarge-retina]"></div>
-          <div class="sans-regular white">Omega — <span class="dark-gray">Pete Reed</span></div>
-        </a>
-      </div>
   </div>
 </div>
-</main>
-</div>
-</div>
+      </div>
+    </main>
+  </div>
+  <nav class="full reveal" id="navigation" data-reveal>
+  <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
+    <div class="shrink cell text-center">
+    <ul class="vertical menu" data-accordion-menu>
+        <li ><a href="/about/" class="h4" data-toggle="navigation">About</a></li>
+        <li class="active"><a href="/work/" class="h4" data-toggle="navigation">Work</a></li>
+        <li ><a href="/culture/" class="h4" data-toggle="navigation">Culture</a></li>
+        <li ><a href="/contact/" class="h4" data-toggle="navigation">Contact</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
 </body>
 </html>

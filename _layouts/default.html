@@ -9,32 +9,27 @@ layout: compress
 {% include site/head.html %}
 <!-- End Head -->
 
-<body class="{{page.layout | slugify}}">
+<body class="{{page.layout | slugify}} grid-y grid-padding-x" style="height: 100vh;">
 
-<!-- Off Canvas Wrapper -->
-<div class="off-canvas-wrapper">
-<!-- Off Canvas Right -->
-<div class="off-canvas position-right" id="offCanvasMenu" data-off-canvas data-transition="overlap" data-close-on-click="true" data-auto-focus="false">
-{% include off-canvas/menu.html %}
-</div>
-<!-- End Off Canvas Right -->
+  <!-- Header -->
+  <div class="cell shrink" style="z-index: 2000">
+    {% include site/header.html %}
+  </div>
+  <!-- End Header -->
+  
+  <!-- Main -->
+  <div class="cell auto">
+    <main class="grid-x grid-padding-x align-middle" style="min-height: 100%">
+      <div class="cell">
+      {{content}}
+      </div>
+    </main>
+  </div>
+  <!-- Main -->
 
-<!-- Off-Canvas Content -->
-<div class="off-canvas-content" data-off-canvas-content>
-<!-- Header -->
-{% include site/header.html %}
-<!-- End Header -->
-
-<main id="main" class="swup-transition-fade-up">
-<!-- Content -->
-{{content}}
-<!-- End Content -->
-</main>
-
-</div>
-<!-- End Off-Canvas Content -->
-</div>
-<!-- End Off-Canvas Wrapper -->
+  <!-- Navigation -->
+  {% include reveal/navigation.html %}
+  <!-- End Navigation -->
 
 </body>
 

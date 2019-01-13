@@ -33,24 +33,11 @@
   <script defer src="/assets/js/min/app-min.js"></script>
 <script defer src="/assets/js/min/svgxuse-min.js"></script>
 </head>
-<body class="page">
-<div class="off-canvas-wrapper">
-<div class="off-canvas position-right" id="offCanvasMenu" data-off-canvas data-transition="overlap" data-close-on-click="true" data-auto-focus="false">
-<div class="grid-x grid-padding-x grid-padding-y padding-2">
-  <div class="small-12 cell">
-      <ul class="vertical menu" data-accordion-menu>
-        <li ><a href="/about/" class="h4" data-toggle="offCanvasMenu">About</a></li>
-        <li ><a href="/work/" class="h4" data-toggle="offCanvasMenu">Work</a></li>
-        <li ><a href="/culture/" class="h4" data-toggle="offCanvasMenu">Culture</a></li>
-        <li ><a href="/contact/" class="h4" data-toggle="offCanvasMenu">Contact</a></li>
-    </ul>
-  </div>
-</div>
-</div>
-<div class="off-canvas-content" data-off-canvas-content>
-<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle text-center" id="maintest">
+<body class="page grid-y grid-padding-x" style="height: 100vh;">
+  <div class="cell shrink" style="z-index: 2000">
+<header class="grid-x grid-padding-x grid-padding-y align-justify align-middle" id="maintest">
   <div class="shrink cell">
-  <a data-toggle="offCanvasMenu" style="z-index: 1001"><svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a>
+  <a data-open="navigation"><svg class="icon icon-menu"><use xlink:href="/assets/icons/symbol-defs.svg#icon-menu"></use></svg></a>
   </div>
   <div class="shrink cell">
   <a href="/"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
@@ -59,7 +46,10 @@
   <a href="/"><svg class="icon icon-instagram"><use xlink:href="/assets/icons/symbol-defs.svg#icon-instagram"></use></svg></a>
   </div>
 </header>
-<main id="main" class="swup-transition-fade-up">
+  </div>
+  <div class="cell auto">
+    <main class="grid-x grid-padding-x align-middle" style="min-height: 100%">
+      <div class="cell">
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 cell">
@@ -90,8 +80,20 @@ Further, 813 Studio does not warrant or make any representations concerning the 
     </div>
   </div>
 </section>
-</main>
-</div>
-</div>
+      </div>
+    </main>
+  </div>
+  <nav class="full reveal" id="navigation" data-reveal>
+  <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
+    <div class="shrink cell text-center">
+    <ul class="vertical menu" data-accordion-menu>
+        <li ><a href="/about/" class="h4" data-toggle="navigation">About</a></li>
+        <li ><a href="/work/" class="h4" data-toggle="navigation">Work</a></li>
+        <li ><a href="/culture/" class="h4" data-toggle="navigation">Culture</a></li>
+        <li ><a href="/contact/" class="h4" data-toggle="navigation">Contact</a></li>
+    </ul>
+    </div>
+  </div>
+</nav>
 </body>
 </html>

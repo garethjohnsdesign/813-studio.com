@@ -2,18 +2,14 @@
 title: Stephen Bayley
 date: 2018-10-01 00:02:00 Z
 position: 6
-image: "/uploads/stephen-bayley.jpg"
-video: https://www.youtube.com/watch?v=5NyAhWc8d8Q&t=9s
+image: "/uploads/stephen-bayley-03.jpg"
+video: https://www.youtube.com/watch?v=gA4w1qXdgC8
 images:
-- image: "/uploads/test-pete-reed-omega-01.jpg"
+- image: "/uploads/stephen-bayley-01.jpg"
   aspect: landscape
-- image: "/uploads/test-pete-reed-omega-02.jpg"
+- image: "/uploads/stephen-bayley-02.jpg"
   aspect: landscape
-- image: "/uploads/test-pete-reed-omega-03.jpg"
-  aspect: landscape
-- image: "/uploads/test-pete-reed-omega-04.jpg"
-  aspect: landscape
-- image: "/uploads/test-pete-reed-omega-05.jpg"
+- image: "/uploads/stephen-bayley-03.jpg"
   aspect: landscape
 client: A Collected Man
 is-featured: true

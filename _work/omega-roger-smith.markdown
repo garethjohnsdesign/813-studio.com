@@ -2,18 +2,20 @@
 title: Roger Smith
 date: 2018-10-01 00:02:00 Z
 position: 6
-image: "/uploads/test-pete-reed-omega-01.jpg"
-video: https://www.youtube.com/watch?v=5NyAhWc8d8Q&t=9s
+image: "/uploads/roger-smith-04.jpg"
+video: https://www.youtube.com/watch?v=5NyAhWc8d8Q
 images:
-- image: "/uploads/test-pete-reed-omega-01.jpg"
+- image: "/uploads/roger-smith-01.jpg"
   aspect: landscape
-- image: "/uploads/test-pete-reed-omega-02.jpg"
+- image: "/uploads/roger-smith-02.jpg"
   aspect: landscape
-- image: "/uploads/test-pete-reed-omega-03.jpg"
+- image: "/uploads/roger-smith-03.jpg"
   aspect: landscape
-- image: "/uploads/test-pete-reed-omega-04.jpg"
+- image: "/uploads/roger-smith-04.jpg"
   aspect: landscape
-- image: "/uploads/test-pete-reed-omega-05.jpg"
+- image: "/uploads/roger-smith-05.jpg"
+  aspect: landscape
+- image: "/uploads/roger-smith-06.jpg"
   aspect: landscape
 client: Omega
 is-featured: true

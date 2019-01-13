@@ -1,7 +1,7 @@
 <div class="small-12 medium-6 {% if work.is-full-width %}medium-12{% endif %} cell text-center">
   <a href="{{ work.url }}">
     {% assign image = work.image %}
-    <div class="margin-bottom-2 light-gray-background image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div>
+    <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div>
     <div class="sans-regular white">{{ work.client }} — <span class="dark-gray">{{ work.title }}</span></div>
   </a>
 </div>

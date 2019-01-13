@@ -3,7 +3,7 @@ title: Michael Hill
 date: 2018-10-01 00:02:00 Z
 position: 6
 image: "/uploads/michael-hill-01.jpg"
-video: https://www.youtube.com/watch?v=5NyAhWc8d8Q&t=9s
+video: https://www.youtube.com/watch?v=cyWTTgpfuQw
 images:
 - image: "/uploads/michael-hill-01.jpg"
   aspect: landscape

@@ -3824,6 +3824,44 @@ ul.no-bullet, ol.no-bullet {
   .print-break-inside {
     page-break-inside: auto; } }
 
+.callout {
+  position: relative;
+  margin: 0 0 1rem 0;
+  padding: 1rem;
+  border: 1px solid rgba(33, 34, 34, 0.25);
+  border-radius: 0;
+  background-color: white;
+  color: #212222; }
+  .callout > :first-child {
+    margin-top: 0; }
+  .callout > :last-child {
+    margin-bottom: 0; }
+  .callout.primary {
+    background-color: white;
+    color: #212222; }
+  .callout.secondary {
+    background-color: #eaeaea;
+    color: #212222; }
+  .callout.success {
+    background-color: #e1faea;
+    color: #212222; }
+  .callout.warning {
+    background-color: #fff3d9;
+    color: #212222; }
+  .callout.alert {
+    background-color: #f7e4e1;
+    color: #212222; }
+  .callout.small {
+    padding-top: 0.5rem;
+    padding-right: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem; }
+  .callout.large {
+    padding-top: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+    padding-left: 3rem; }
+
 .menu {
   padding: 0;
   margin: 0;
@@ -4360,7 +4398,7 @@ html.is-reveal-open body {
   padding: 1rem;
   border: 1px solid #cacaca;
   border-radius: 0;
-  background-color: #fefefe;
+  background-color: #212222;
   position: relative;
   top: 100px;
   margin-right: auto;
@@ -6440,8 +6478,7 @@ p a {
 .image {
   position: relative;
   background-size: cover;
-  background-position: 50%;
-  background-color: #e6e6e6; }
+  background-position: 50%; }
   .image:before {
     display: block;
     content: "";
@@ -6456,16 +6493,44 @@ p a {
     height: 100%;
     width: 100%; }
 
+/*
+header {
+  @include breakpoint(small) {
+    @include padding(1, 1, 1, 1);
+  }
+  @include breakpoint(medium) {
+    @include padding(1, 1, null, 1);
+  }
+  @include breakpoint(large) {
+    @include padding(1, 2, null, 2);
+  }
+/*
+  @include breakpoint(xxlarge) {
+    @include padding(2, 4, null, 4);
+  }
+*/
+/*
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    flex-shrink: 0;
+    background-color: green;
+}
+
+main {
+    background-color: blue;
+    flex: 1 0 auto;
+}
+*/
 header {
   padding-top: 1rem !important;
   padding-right: 1rem !important;
   padding-bottom: 1rem !important;
-  padding-left: 1rem !important;
-  /*
-  @include breakpoint(xxlarge) {
-    @include padding(2, 4, null, 4);
-  }
-*/ }
+  padding-left: 1rem !important; }
   @media print, screen and (min-width: 40em) {
     header {
       padding-top: 1rem !important;
@@ -6475,4 +6540,22 @@ header {
     header {
       padding-top: 1rem !important;
       padding-right: 2rem !important;
+      padding-left: 2rem !important; } }
+
+main {
+  padding-top: 0rem !important;
+  padding-right: 1rem !important;
+  padding-bottom: 1rem !important;
+  padding-left: 1rem !important; }
+  @media print, screen and (min-width: 40em) {
+    main {
+      padding-top: 0rem !important;
+      padding-right: 1rem !important;
+      padding-bottom: 1rem !important;
+      padding-left: 1rem !important; } }
+  @media print, screen and (min-width: 64em) {
+    main {
+      padding-top: 0rem !important;
+      padding-right: 2rem !important;
+      padding-bottom: 2rem !important;
       padding-left: 2rem !important; } }

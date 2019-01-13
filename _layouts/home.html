@@ -5,19 +5,13 @@ layout: default
 <div class="orbit" role="region" data-orbit data-options="animInFromLeft:slide-in-left; animInFromRight:slide-in-right; animOutToLeft:slide-out-left; animOutToRight:slide-out-right;">
   <div class="orbit-wrapper">
     
-<!--
-    <div class="orbit-controls">
-      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-fiber_manual_record"><use xlink:href="/assets/icons/symbol-defs.svg#icon-fiber_manual_record"></use></svg></button>
-      <button class="orbit-next"><span class="show-for-sr">Previous Slide</span><svg class="icon icon-fiber_manual_record"><use xlink:href="/assets/icons/symbol-defs.svg#icon-fiber_manual_record"></use></svg></button>
-    </div>
--->
     
     <ul class="orbit-container">      
       {% assign works = site.work | sort: 'position' | where: "is-featured", "true" %}
       {% for work in works %}
       <li class="orbit-slide">
       
-        <div class="grid-y align-center" style="height: 80vh;">
+        <div class="grid-y align-center" style="height: 100%;">
           <div class="shrink cell">
 
             <div class="grid-x align-center">
