@@ -3340,7 +3340,7 @@ h6, .h6 {
 
 h1, .h1 {
   font-size: 2rem;
-  line-height: 1;
+  line-height: 1.2;
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
@@ -3377,7 +3377,7 @@ h6, .h6 {
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
     font-size: 3rem;
-    line-height: 1;
+    line-height: 1.2;
     margin-top: 0;
     margin-bottom: 0.5rem; }
   h2, .h2 {
@@ -3409,7 +3409,7 @@ h6, .h6 {
 @media screen and (min-width: 90em) {
   h1, .h1 {
     font-size: 4rem;
-    line-height: 1;
+    line-height: 1.2;
     margin-top: 0;
     margin-bottom: 0.5rem; }
   h2, .h2 {
