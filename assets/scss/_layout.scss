@@ -120,14 +120,15 @@ p a {
     width: 100%;
     padding-top: ($height / $width) * 100%;
   }
-  > .content {
+ .content {
+    transition: $primary-transition;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-height: 100%;
-width: 100%;
+    height: 100%;
+    width: 100%;
   }
 }
 
@@ -137,41 +138,26 @@ width: 100%;
   background-position: 50%;
 }
 
-/*
-header {
-  @include breakpoint(small) {
-    @include padding(1, 1, 1, 1);
+.home .image {
+ .content {
+    opacity: 0;
   }
-  @include breakpoint(medium) {
-    @include padding(1, 1, null, 1);
+  &:hover .content {
+    background-color: rgba($black, 0.90);
+    opacity: 1;
   }
-  @include breakpoint(large) {
-    @include padding(1, 2, null, 2);
-  }
-/*
-  @include breakpoint(xxlarge) {
-    @include padding(2, 4, null, 4);
-  }
-*/
-
-
-/*
-.container {
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
 }
 
-header {
-    flex-shrink: 0;
-    background-color: green;
+.work .image {
+ .content {
+    opacity: 0;
+  }
+  &:hover .content {
+    background-color: rgba($black, 0.90);
+    opacity: 1;
+  }
 }
 
-main {
-    background-color: blue;
-    flex: 1 0 auto;
-}
-*/
 
 header {
   @include breakpoint(small) {
@@ -182,17 +168,5 @@ header {
   }
   @include breakpoint(large) {
     @include padding(1, 2, null, 2);
-  }
-}
-
-main {
-  @include breakpoint(small) {
-    @include padding(0, 1, 1, 1);
-  }
-  @include breakpoint(medium) {
-    @include padding(0, 1, 1, 1);
-  }
-  @include breakpoint(large) {
-    @include padding(0, 2, 2, 2);
   }
 }

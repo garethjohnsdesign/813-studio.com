@@ -56,7 +56,7 @@
 // @include foundation-badge;
 // @include foundation-breadcrumbs;
 // @include foundation-button-group;
-@include foundation-callout;
+// @include foundation-callout;
 // @include foundation-card;
 // @include foundation-close-button;
 @include foundation-menu;
@@ -64,7 +64,7 @@
 // @include foundation-drilldown-menu;
 // @include foundation-dropdown;
 // @include foundation-dropdown-menu;
-@include foundation-responsive-embed;
+// @include foundation-responsive-embed;
 // @include foundation-label;
 // @include foundation-media-object;
 @include foundation-off-canvas;
@@ -104,4 +104,6 @@
 
 @import 'icons';
 @import 'lightgallery';
+// @import 'carousel';
+@import 'swiper';
 @import 'layout';

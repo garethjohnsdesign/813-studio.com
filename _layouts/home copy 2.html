@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    
+
+      {% assign works = site.work | sort: 'position' | where: "is-featured", "true" %}
+      {% for work in works %}
+      <div class="swiper-slide width-75">
+
+        <div class="grid-x align-center">
+          <div class="small-11 medium-11 cell text-center">
+              {% assign image = work.image %}
+              <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div>
+              <div class="sans-regular white">{{ work.client }} — <span class="dark-gray">{{ work.title }}</span></div>
+          </div>
+        </div>
+
+      </div>
+      {% endfor %}
+
+  </div>
+</div
+

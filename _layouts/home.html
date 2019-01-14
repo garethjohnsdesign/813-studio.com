@@ -2,34 +2,30 @@
 layout: default
 ---
 
-<div class="orbit" role="region" data-orbit data-options="animInFromLeft:slide-in-left; animInFromRight:slide-in-right; animOutToLeft:slide-out-left; animOutToRight:slide-out-right;">
-  <div class="orbit-wrapper">
+<div class="swiper-container">
+  <div class="swiper-wrapper">
     
-    
-    <ul class="orbit-container">      
+
       {% assign works = site.work | sort: 'position' | where: "is-featured", "true" %}
       {% for work in works %}
-      <li class="orbit-slide">
-      
-        <div class="grid-y align-center" style="height: 100%;">
-          <div class="shrink cell">
 
-            <div class="grid-x align-center">
-              <div class="small-12 medium-7 cell text-center">
-                <a href="{{ work.url }}">
-                  {% assign image = work.image %}
-                  <div class="margin-bottom-3 light-gray-background image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div>
-                  <div class="sans-regular white margin-top-1">{{ work.client }} — <span class="dark-gray">{{ work.title }}</span></div>
-                </a>
+
+          <div class="swiper-slide small-10 medium-7 padding-2 cell text-center">
+              {% assign image = work.image %}
+              <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
+
+              <div class="content grid-y align-center show-for-medium">
+                <div class="shrink cell padding-3">
+                  <div class="margin-bottom-2">{{ work.excerpt }}</div>
+                  <a href="{{ work.url }}"><svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+                </div>
               </div>
-            </div>
-        
-          </div>
-        </div>
 
-      </li>
+              </div>
+              <div class="sans-regular white">{{ work.client }} — <span class="dark-gray">{{ work.title }}</span></div>
+          </div>
+
       {% endfor %}
-    </ul>
 
   </div>
 </div>

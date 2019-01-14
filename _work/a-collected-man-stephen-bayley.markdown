@@ -1,5 +1,6 @@
 ---
 title: Stephen Bayley
+excerpt: Stephen Bayley is a very highly regarded author, critic, columnist, broadcaster, consultant, debater and curator. Perhaps his most influential achievement was the opening of the Boilerhouse Project with Terence Conran in the basement of the Victoria & Albert Museum in London.
 date: 2018-10-01 00:02:00 Z
 position: 6
 image: "/uploads/stephen-bayley-03.jpg"
@@ -16,4 +17,4 @@ is-featured: true
 layout: project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend.
+Stephen Bayley is a very highly regarded author, critic, columnist, broadcaster, consultant, debater and curator. Perhaps his most influential achievement was the opening of the Boilerhouse Project with Terence Conran in the basement of the Victoria & Albert Museum in London. This gallery put to use an unused area of the building and would highlight artists, architects and designers to such success, that the suggestion of opening its own premises was quickly suggested. This new institution would be the Design Museum, which has hosted exhibitions for Porsche, Alpha Romeo and Eames to name but a few. We decided to catch up with Stephen over some coffee and watches.

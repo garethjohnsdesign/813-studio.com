@@ -26,6 +26,28 @@ $(function() {
 window.addEventListener('load', AOS.refresh);
 });
 
+/*
+$('.owl-carousel').owlCarousel({
+    center: true,
+    loop:true,
+    margin:50,
+    nav:false,
+    items: 1,
+    stagePadding: 200,
+})
+*/
+
+$(document).ready(function () {
+    //initialize swiper when document ready
+    var mySwiper = new Swiper ('.swiper-container', {
+      direction: 'horizontal',
+      slidesPerView: 'auto',
+      centeredSlides: true,
+      loop: true,
+      slideToClickedSlide: true    
+    })
+  });
+
 
 $('.video').lightGallery({
     counter: false,
