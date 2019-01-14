@@ -45,6 +45,26 @@ layout: default
 </section>
 <!-- End Content -->
 
+<!-- Images -->
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center project__meta">
+    {% for picture in page.images %}
+     {% if picture.aspect == "landscape" %}
+     <div class="small-12 medium-12 cell">
+     {% assign image = picture.image %}
+     <img data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" data-aos="fade-in">
+     </div>
+     {% elsif picture.aspect == "portrait" %}
+     <div class="small-12 medium-6 cell">
+     {% assign image = picture.image %}
+     <img data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}" data-aos="fade-in">
+     </div>
+     {% endif %}
+    {% endfor %}
+  </div>
+</div>
+<!-- End Images -->
+
 <!-- Works -->
 <div class="grid-container padding-vertical-space-1">
   <div class="grid-x grid-padding-x grid-padding-y">
