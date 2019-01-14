@@ -138,6 +138,16 @@ p a {
   background-position: 50%;
 }
 
+.work .image {
+ .content {
+    opacity: 0;
+  }
+  &:hover .content {
+    background-color: rgba($black, 0.90);
+    opacity: 1;
+  }
+}
+
 .home .image {
  .content {
     opacity: 0;
