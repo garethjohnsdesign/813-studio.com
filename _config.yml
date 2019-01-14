@@ -48,6 +48,15 @@ date_format: "%b %d, %Y"
 future: true
 social:
   instagram: https://www.instagram.com/813.studio/
+clients:
+  bbc: https://www.bbc.co.uk
+  conde-nast: https://www.condenast.co.uk
+  nike: https://www.nike.com
+  refinery-29: https://www.refinery29.com
+  the-guardian: https://www.theguardian.com
+  the-new-york-times: https://www.nytimes.com
+  vice: https://www.vice.com
+  youtube: https://www.universalpictures.com
 compress_html:
   comments:
   - "<!-- "
