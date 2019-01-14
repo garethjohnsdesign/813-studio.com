@@ -4,4 +4,4 @@ Website for 813 Studio. Please go to [https://www.813-studio.com](https://www.81
 
 * * *
 
-Copyright (c) 2018 Gareth Johns Design + Development – info@garethjohnsdesign.com
+Copyright (c) 2019 Gareth Johns Design + Development – info@garethjohnsdesign.com
