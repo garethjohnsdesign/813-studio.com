@@ -1,8 +1,11 @@
 ---
 title: Stephen Bayley
-excerpt: Stephen Bayley is a very highly regarded author, critic, columnist, broadcaster, consultant, debater and curator. Perhaps his most influential achievement was the opening of the Boilerhouse Project with Terence Conran in the basement of the Victoria & Albert Museum in London.
 date: 2018-10-01 00:02:00 Z
 position: 6
+excerpt: Stephen Bayley is a very highly regarded author, critic, columnist, broadcaster,
+  consultant, debater and curator. Perhaps his most influential achievement was the
+  opening of the Boilerhouse Project with Terence Conran in the basement of the Victoria
+  & Albert Museum in London.
 image: "/uploads/stephen-bayley-03.jpg"
 video: https://www.youtube.com/watch?v=gA4w1qXdgC8
 images:
