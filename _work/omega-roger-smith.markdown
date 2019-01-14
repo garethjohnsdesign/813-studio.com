@@ -1,5 +1,6 @@
 ---
 title: Roger Smith
+excerpt: Roger W. Smith was the apprentice to the late George Daniels, inventor of OMEGA's famous Co-Axial escapement.
 date: 2018-10-01 00:02:00 Z
 position: 6
 image: "/uploads/roger-smith-04.jpg"
@@ -22,4 +23,4 @@ is-featured: true
 layout: project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend.
+Roger W. Smith was the apprentice to the late George Daniels, inventor of OMEGA's famous Co-Axial escapement. Join Roger for a spin in his classic Mini with his Seamaster Chronograph Calibre 321 produced in 1968, on the wild and windy Isle of Man.
