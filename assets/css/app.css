@@ -6902,7 +6902,6 @@ p a {
 header {
   padding-top: 1rem !important;
   padding-right: 1rem !important;
-  padding-bottom: 1rem !important;
   padding-left: 1rem !important; }
   @media print, screen and (min-width: 40em) {
     header {
@@ -6913,7 +6912,7 @@ header {
     header {
       padding-top: 1rem !important;
       padding-right: 2rem !important;
-      padding-left: 2rem !important; } }
+      padding-left: 0rem !important; } }
 
 /*
 .swiper-slide-prev, .swiper-slide-next {

@@ -191,13 +191,13 @@ p a {
 
 header {
   @include breakpoint(small) {
-    @include padding(1, 1, 1, 1);
+    @include padding(1, 1, null, 1);
   }
   @include breakpoint(medium) {
     @include padding(1, 1, null, 1);
   }
   @include breakpoint(large) {
-    @include padding(1, 2, null, 2);
+    @include padding(1, 2, null, 0);
   }
 }
 
