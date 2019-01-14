@@ -693,6 +693,26 @@ $foundation-palette: (
   alert: #cc4b37,
 );
 */
+/*
+$header-styles: (
+  small: (
+    'h1': ('font-size': 24),
+    'h2': ('font-size': 20),
+    'h3': ('font-size': 19),
+    'h4': ('font-size': 18),
+    'h5': ('font-size': 17),
+    'h6': ('font-size': 16),
+  ),
+  medium: (
+    'h1': ('font-size': 48),
+    'h2': ('font-size': 40),
+    'h3': ('font-size': 31),
+    'h4': ('font-size': 25),
+    'h5': ('font-size': 20),
+    'h6': ('font-size': 16),
+  ),
+);
+*/
 /**
  * Foundation for Sites by ZURB
  * Version 6.5.1
@@ -3319,8 +3339,8 @@ h6, .h6 {
     color: #cacaca; }
 
 h1, .h1 {
-  font-size: 1.5rem;
-  line-height: 1.4;
+  font-size: 2rem;
+  line-height: 1;
   margin-top: 0;
   margin-bottom: 0.5rem; }
 
@@ -3356,17 +3376,67 @@ h6, .h6 {
 
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
-    font-size: 3rem; }
+    font-size: 3rem;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
   h2, .h2 {
-    font-size: 2.5rem; }
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
   h3, .h3 {
-    font-size: 1.9375rem; }
+    font-size: 1.75rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
   h4, .h4 {
-    font-size: 1.5625rem; }
+    font-size: 1.5625rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
   h5, .h5 {
-    font-size: 1.25rem; }
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
   h6, .h6 {
-    font-size: 1rem; } }
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0.5rem; } }
+
+@media screen and (min-width: 90em) {
+  h1, .h1 {
+    font-size: 4rem;
+    line-height: 1;
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
+  h2, .h2 {
+    font-size: 2rem;
+    line-height: 1.4;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem; }
+  h3, .h3 {
+    font-size: 1.75rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
+  h4, .h4 {
+    font-size: 1.5625rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
+  h5, .h5 {
+    font-size: 1.25rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0.5rem; }
+  h6, .h6 {
+    font-size: 1rem;
+    line-height: 1.4;
+    margin-top: 0;
+    margin-bottom: 0.5rem; } }
 
 a {
   line-height: inherit;

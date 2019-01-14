@@ -205,6 +205,13 @@
 		"oAP": "/_layouts/project.html",
 		"oF": 0
 		},
+	"/_layouts/time.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_layouts/time.html",
+		"oF": 0
+		},
 	"/_layouts/work.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -1240,16 +1247,6 @@
 		"oAP": "/assets/js/min/app-min.js",
 		"oF": 0,
 		"sC": 0,
-		"tS": 0
-		},
-	"/assets/js/links.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/links-min.js",
-		"oF": 0,
-		"sC": 1,
 		"tS": 0
 		},
 	"/assets/js/min/app-min.js": {
@@ -10832,6 +10829,24 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "/terms.md",
+		"oF": 1,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/time.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "/time.md",
 		"oF": 1,
 		"oFM": 0,
 		"oS": 0,

@@ -1,4 +1,6 @@
 header:
+  - title: time
+    url: /time/  
   - title: About
     url: /about/  
   - title: Work
