@@ -6912,7 +6912,7 @@ header {
     header {
       padding-top: 1rem !important;
       padding-right: 2rem !important;
-      padding-left: 0rem !important; } }
+      padding-left: 1rem !important; } }
 
 /*
 .swiper-slide-prev, .swiper-slide-next {

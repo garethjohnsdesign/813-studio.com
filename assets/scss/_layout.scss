@@ -197,7 +197,7 @@ header {
     @include padding(1, 1, null, 1);
   }
   @include breakpoint(large) {
-    @include padding(1, 2, null, 0);
+    @include padding(1, 2, null, 1);
   }
 }
 
