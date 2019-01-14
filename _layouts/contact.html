@@ -1,0 +1,25 @@
+---
+layout: default
+---
+
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center margin-vertical-1">
+
+     {% for detail in page.details %}
+      <div class="small-12 medium-8 cell text-center" data-aos="fade-in">
+        <div class="medium-gray margin-bottom-1"><span class="underline">{{detail.title}}</span></div>
+        {{detail.text | markdownify}}
+      </div>
+      {% endfor %}
+
+  </div>
+</div>
+
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <ul class="menu medium-gray">
+      <li><a href="/terms"><small>Terms</small></a></li>
+      <li><a href="/privacy"><small>Privacy</small></a></li>
+    </ul>
+  </div>
+</section>

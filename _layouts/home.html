@@ -2,23 +2,36 @@
 layout: default
 ---
 
-<div class="grid-y" style="height: 100vh;">
-  
-  <div class="auto cell text-center">
-    <div class="grid-y height-100 align-center" ==>
-      <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-up">
-        <div class="small-12 cell">
-          <a href="mailto:{{site.email}}"><svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="shrink cell text-center">
-    <div class="grid-x grid-padding-x grid-padding-y">
-        <div class="small-12 cell">
-          <a href="mailto:{{site.email}}">{{site.email}}</a>
-        </div>
-    </div>
+<div class="swiper-container">
+  <div class="swiper-wrapper">
+    
+
+      {% assign works = site.work | sort: 'position' | where: "is-featured", "true" %}
+      {% for work in works %}
+
+
+          <div class="swiper-slide small-10 medium-7 padding-2 cell text-center">
+              {% assign image = work.image %}
+              <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}">
+
+              <div class="content grid-y align-center show-for-medium">
+                <div class="shrink cell padding-3">
+
+                  <div class="grid-x align-center">
+                    <div class="small-6 cell">
+                      <div class="margin-vertical-2">{{ work.excerpt }}</div>
+                      <a href="{{ work.url }}"><svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg></a>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              </div>
+              <div class="sans-regular white">{{ work.client }} — <span class="dark-gray">{{ work.title }}</span></div>
+          </div>
+
+      {% endfor %}
+
   </div>
 </div>
