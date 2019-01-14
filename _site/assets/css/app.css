@@ -6806,3 +6806,27 @@ header {
       padding-top: 1rem !important;
       padding-right: 2rem !important;
       padding-left: 2rem !important; } }
+
+/* PAGE ANIMATIONS */
+.swup-transition-fade-up {
+  transition: 0.5s;
+  opacity: 1;
+  transform: translateY(0); }
+
+html.is-animating .swup-transition-fade-up {
+  opacity: 0;
+  transform: translateY(-10px); }
+
+.swup-transition-fade {
+  transition: 0.5s;
+  opacity: 1; }
+
+html.is-animating .swup-transition-fade {
+  opacity: 0; }
+
+.swup-transition-color {
+  transition: 0.5s;
+  opacity: 1; }
+
+html.is-animating .swup-transition-color {
+  opacity: 0; }

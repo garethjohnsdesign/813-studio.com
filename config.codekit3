@@ -11854,6 +11854,407 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"/bower_components/swup/dist/plugins/swupGaPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/dist/plugins/swupGaPlugin.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/dist/plugins/swupGaPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/dist/plugins/swupGaPlugin.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/dist/plugins/swupGtmPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/dist/plugins/swupGtmPlugin.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/dist/plugins/swupGtmPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/dist/plugins/swupGtmPlugin.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/dist/plugins/swupMergeHeadPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/dist/plugins/swupMergeHeadPlugin.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/dist/plugins/swupMergeHeadPlugin.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/dist/plugins/swupMergeHeadPlugin.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/dist/swup.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/dist/swup.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/dist/swup.min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/dist/swup.min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/entry.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/entry.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/LICENSE": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/bower_components/swup/LICENSE",
+		"oF": 0
+		},
+	"/bower_components/swup/package-lock.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/swup/package-lock.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/swup/package.json": {
+		"ft": 524288,
+		"oA": 2,
+		"oAP": "/bower_components/swup/package.json",
+		"oF": 0,
+		"oO": 0,
+		"oS": 1
+		},
+	"/bower_components/swup/readme.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 2,
+		"oAP": "/bower_components/swup/readme.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
+		},
+	"/bower_components/swup/src/Cache.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/Cache.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/index.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/index.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/Link.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/Link.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/classify.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/classify.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/createState.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/createState.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/doScrolling.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/doScrolling.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/getDataFromHtml.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/getDataFromHtml.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/getUrl.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/getUrl.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/loadPage.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/loadPage.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/log.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/log.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/markSwupElements.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/markSwupElements.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/off.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/off.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/on.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/on.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/preloadPage.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/preloadPage.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/preloadPages.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/preloadPages.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/renderPage.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/renderPage.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/request.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/request.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/scrollTo.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/scrollTo.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/triggerEvent.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/triggerEvent.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/updateTransition.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/updateTransition.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/usePlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/usePlugin.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/modules/utils.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/modules/utils.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/plugins/swupGaPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/src/plugins/swupGaPlugin.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/plugins/swupGtmPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/src/plugins/swupGtmPlugin.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/plugins/swupMergeHeadPlugin.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/src/plugins/swupMergeHeadPlugin.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/src/transitionEnd.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/bower_components/swup/src/transitionEnd.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/bower_components/swup/webpack.config.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 2,
+		"oAP": "/bower_components/swup/webpack.config.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"/bower_components/what-input/.bower.json": {
 		"ft": 524288,
 		"oA": 2,
@@ -12233,44 +12634,50 @@
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/motion-ui/dist/motion-ui.js",
+			"linkedFileAbbreviatedPath": "/bower_components/swup/dist/swup.js",
 			"position": 2,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/what-input/dist/what-input.js",
+			"linkedFileAbbreviatedPath": "/bower_components/motion-ui/dist/motion-ui.js",
 			"position": 3,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/aos/dist/aos.js",
+			"linkedFileAbbreviatedPath": "/bower_components/what-input/dist/what-input.js",
 			"position": 4,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/dist/js/lightgallery.js",
+			"linkedFileAbbreviatedPath": "/bower_components/aos/dist/aos.js",
 			"position": 5,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-video.js",
+			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/dist/js/lightgallery.js",
 			"position": 6,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-fullscreen.js",
+			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-video.js",
 			"position": 7,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/swiper/dist/js/swiper.min.js",
+			"linkedFileAbbreviatedPath": "/bower_components/lightgallery/modules/lg-fullscreen.js",
 			"position": 8,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "/bower_components/swiper/dist/js/swiper.min.js",
+			"position": 9,
 			"type": 0
 			}
 		]
