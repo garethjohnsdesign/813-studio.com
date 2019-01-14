@@ -5,6 +5,9 @@ collections:
   posts:
     title: Posts
     output: true
+  work:
+    title: Work
+    output: true
   uploads:
     title: Uploads
     output: false
@@ -25,6 +28,7 @@ exclude:
 - bower_components
 - assets/scss
 plugins:
+- jekyll-paginate-v2
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
@@ -43,15 +47,32 @@ per_page: 12
 date_format: "%b %d, %Y"
 future: true
 social:
-  facebook: 
-  instagram: 
-  twitter: 
-  linkedin: 
+  instagram: https://www.instagram.com/813.studio/
+clients:
+  bbc: https://www.bbc.co.uk
+  conde-nast: https://www.condenast.co.uk
+  nike: https://www.nike.com
+  refinery-29: https://www.refinery29.com
+  the-guardian: https://www.theguardian.com
+  the-new-york-times: https://www.nytimes.com
+  vice: https://www.vice.com
+  youtube: https://www.universalpictures.com
 compress_html:
   comments:
   - "<!-- "
   - " -->"
   blanklines: true
   profile: false
+pagination:
+  collection: posts
+  enabled: true
+  per_page: 6
+  limit: 0
+  permalink: "/:num/"
+  title: ":title — :num of :max"
+  sort_field: date
+  sort_reverse: true
+autopages:
+  enabled: false
 imgix:
   source: 813-studio.imgix.net

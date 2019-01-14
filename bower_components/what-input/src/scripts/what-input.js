@@ -17,6 +17,9 @@ module.exports = (() => {
       ignoreKeys: () => {},
 
       // no-op
+      specificKeys: () => {},
+
+      // no-op
       registerOnChange: () => {},
 
       // no-op
@@ -42,7 +45,7 @@ module.exports = (() => {
 
   // check for sessionStorage support
   // then check for session variables and use if available
-  if (window.sessionStorage) {
+  try {
     if (window.sessionStorage.getItem('what-input')) {
       currentInput = window.sessionStorage.getItem('what-input')
     }
@@ -50,7 +53,7 @@ module.exports = (() => {
     if (window.sessionStorage.getItem('what-intent')) {
       currentIntent = window.sessionStorage.getItem('what-intent')
     }
-  }
+  } catch (e) {}
 
   // event buffer timer
   let eventTimer = null
@@ -70,6 +73,8 @@ module.exports = (() => {
     91, // Windows key / left Apple cmd
     93 // Windows menu / right Apple cmd
   ]
+
+  let specificMap = []
 
   // mapping of events to input types
   const inputMap = {
@@ -181,19 +186,27 @@ module.exports = (() => {
         value = pointerType(event)
       }
 
+      const ignoreMatch = (
+        !specificMap.length &&
+        ignoreMap.indexOf(eventKey) === -1
+      )
+
+      const specificMatch = (
+        specificMap.length &&
+        specificMap.indexOf(eventKey) !== -1
+      )
+
       let shouldUpdate =
-        (value === 'keyboard' &&
-          eventKey &&
-          ignoreMap.indexOf(eventKey) === -1) ||
+        value === 'keyboard' && eventKey && (ignoreMatch || specificMatch) ||
         value === 'mouse' ||
         value === 'touch'
 
       if (currentInput !== value && shouldUpdate) {
         currentInput = value
 
-        if (window.sessionStorage) {
+        try {
           window.sessionStorage.setItem('what-input', currentInput)
-        }
+        } catch (e) {}
 
         doUpdate('input')
       }
@@ -209,9 +222,9 @@ module.exports = (() => {
         if (notFormInput) {
           currentIntent = value
 
-          if (window.sessionStorage) {
+          try {
             window.sessionStorage.setItem('what-intent', currentIntent)
-          }
+          } catch (e) {}
 
           doUpdate('intent')
         }
@@ -245,9 +258,9 @@ module.exports = (() => {
       if (currentIntent !== value) {
         currentIntent = value
 
-        if (window.sessionStorage) {
+        try {
           window.sessionStorage.setItem('what-intent', currentIntent)
-        }
+        } catch (e) {}
 
         doUpdate('intent')
       }
@@ -392,6 +405,11 @@ module.exports = (() => {
     // overwrites ignored keys with provided array
     ignoreKeys: arr => {
       ignoreMap = arr
+    },
+
+    // overwrites specific char keys to update on
+    specificKeys: arr => {
+      specificMap = arr
     },
 
     // attach functions to input and intent "events"

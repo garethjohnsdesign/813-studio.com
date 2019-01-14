@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+
+<div class="grid-x grid-padding-x grid-padding-y small-up-3 medium-up-3">
+{% for image in page.images %} 
+  <div class="cell">
+  {% assign image = image %}
+   <div class="light-gray-background image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div>
+  </div>
+{% endfor %}
+</div>
