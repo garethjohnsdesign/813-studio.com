@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "28905",
 "files": {
+	"/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/.gitignore",
+		"oF": 0
+		},
 	"/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -196,12 +203,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_layouts/work.html",
-		"oF": 0
-		},
-	"/_site": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "/build/_site",
 		"oF": 0
 		},
 	"/_uploads/craig-muir-01.jpg": {
@@ -1186,6 +1187,16 @@
 		"oA": 2,
 		"oAP": "/assets/fonts/gt-haptik-regular.woff2",
 		"oF": 0
+		},
+	"/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"/assets/img/logo.svg": {
 		"ft": 2097152,
