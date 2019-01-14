@@ -1289,19 +1289,6 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"/assets/scss/_carousel.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_carousel.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"/assets/scss/_fonts.scss": {
 		"aP": 0,
 		"bl": 0,
