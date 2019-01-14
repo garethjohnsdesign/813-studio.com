@@ -52,12 +52,12 @@ layout: default
      {% if picture.aspect == "landscape" %}
      <div class="small-12 medium-12 cell">
     {% assign image = picture.image %}
-    <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div>
+    <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}"></div>
      </div>
      {% elsif picture.aspect == "portrait" %}
      <div class="small-12 medium-6 cell">
     {% assign image = picture.image %}
-    <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div
+    <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}"></div
      </div>
      {% endif %}
     {% endfor %}

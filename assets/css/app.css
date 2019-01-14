@@ -5401,6 +5401,9 @@ Single-colored icons can be modified like so:
 .icon-call_made {
   font-size: 1.5rem; }
 
+.icon-brightness_1 {
+  font-size: 1.5rem; }
+
 .icon-menu {
   font-size: 1.5rem; }
 
@@ -6870,42 +6873,6 @@ p a {
   background-color: rgba(33, 34, 34, 0.9);
   opacity: 1; }
 
-/*
-.home .swiper-slide-active .image {
- .content {
-    opacity: 0;
-  }
-  &:hover .content {
-    background-color: rgba($black, 0.90);
-    opacity: 1;
-  }
-}
-
-.home .swiper-slide-prev .image {
- .content {
-    opacity: 0;
-  }
-  &:hover .content {
-    background-color: rgba($black, 0.90);
-  }
-}
-
-.home .swiper-slide-next .image {
- .content {
-    opacity: 0;
-  }
-  &:hover .content {
-    background-color: rgba($black, 0.90);
-  }
-}
-*/
-.work .image .content {
-  opacity: 0; }
-
-.work .image:hover .content {
-  background-color: rgba(33, 34, 34, 0.9);
-  opacity: 1; }
-
 header {
   padding-top: 1rem !important;
   padding-right: 1rem !important;
@@ -6921,11 +6888,16 @@ header {
       padding-right: 2rem !important;
       padding-left: 1rem !important; } }
 
-/*
-.swiper-slide-prev, .swiper-slide-next {
- opacity: 0.5;
-}
-*/
+.swiper-slide-prev {
+  opacity: 0.75; }
+  .swiper-slide-prev .content {
+    display: none; }
+
+.swiper-slide-next {
+  opacity: 0.75; }
+  .swiper-slide-next .content {
+    display: none; }
+
 /* PAGE ANIMATIONS */
 .swup-transition-fade-up {
   transition: 0.5s;

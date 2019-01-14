@@ -158,46 +158,6 @@ p a {
   }
 }
 
-/*
-.home .swiper-slide-active .image {
- .content {
-    opacity: 0;
-  }
-  &:hover .content {
-    background-color: rgba($black, 0.90);
-    opacity: 1;
-  }
-}
-
-.home .swiper-slide-prev .image {
- .content {
-    opacity: 0;
-  }
-  &:hover .content {
-    background-color: rgba($black, 0.90);
-  }
-}
-
-.home .swiper-slide-next .image {
- .content {
-    opacity: 0;
-  }
-  &:hover .content {
-    background-color: rgba($black, 0.90);
-  }
-}
-*/
-
-.work .image {
- .content {
-    opacity: 0;
-  }
-  &:hover .content {
-    background-color: rgba($black, 0.90);
-    opacity: 1;
-  }
-}
-
 
 header {
   @include breakpoint(small) {
@@ -211,11 +171,19 @@ header {
   }
 }
 
-/*
-.swiper-slide-prev, .swiper-slide-next {
- opacity: 0.5;
+.swiper-slide-prev {
+  opacity: 0.75;
+  .content {
+    display: none;
+  }
 }
-*/
+
+.swiper-slide-next {
+  opacity: 0.75;
+  .content {
+    display: none;
+  }
+}
 
 /* PAGE ANIMATIONS */
 .swup-transition-fade-up {

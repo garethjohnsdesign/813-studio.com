@@ -26,16 +26,6 @@ $(function() {
 window.addEventListener('load', AOS.refresh);
 });
 
-/*
-$('.owl-carousel').owlCarousel({
-    center: true,
-    loop:true,
-    margin:50,
-    nav:false,
-    items: 1,
-    stagePadding: 200,
-})
-*/
 
 $(document).ready(function () {
     //initialize swiper when document ready
