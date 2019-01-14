@@ -17,6 +17,7 @@ images:
   aspect: landscape
 client: Omega
 is-featured: true
+is-full-width: false
 layout: project
 ---
 
