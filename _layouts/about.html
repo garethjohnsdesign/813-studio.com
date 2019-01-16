@@ -7,7 +7,7 @@ layout: default
 {% unless content == ""  %}
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-10 cell">
+    <div class="small-10 medium-10 cell text-center">
       {{ page.content | replace: "/uploads", "https://hotfeet.imgix.net/uploads" | markdownify }}
     </div>
   </div>

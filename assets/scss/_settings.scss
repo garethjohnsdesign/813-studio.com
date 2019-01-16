@@ -66,8 +66,8 @@
 // ---------
 
 $global-font-size: 100%;
-// $global-width: rem-calc(1200);
-$global-width: rem-calc(1024);
+$global-width: rem-calc(1200);
+// $global-width: rem-calc(1024);
 $global-lineheight: 1.5;
 /*
 $foundation-palette: (
@@ -89,6 +89,7 @@ $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 // $black: #0a0a0a;
+$true-black: #000000;
 $black: #212222;
 $white: #fefefe;
 // $body-background: $white;
@@ -211,6 +212,7 @@ $code-border: 1px solid $medium-gray;
 $code-padding: rem-calc(2 5 1);
 $anchor-color: $primary-color;
 $anchor-color-hover: scale-color($anchor-color, $lightness: -14%);
+$anchor-color-hover: scale-color($anchor-color, $lightness: -75%);
 $anchor-text-decoration: none;
 $anchor-text-decoration-hover: none;
 $hr-width: $global-width;

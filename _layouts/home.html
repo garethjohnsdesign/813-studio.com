@@ -3,36 +3,45 @@ layout: default
 ---
 
 <div class="swiper-container">
+
+  <div class="swiper-button-prev-test flex-container align-center-middle"><svg class="icon icon-brightness_1"><use xlink:href="/assets/icons/symbol-defs.svg#icon-brightness_1"></use></svg></div>
+  <div class="swiper-button-next-test flex-container align-center-middle"><svg class="icon icon-brightness_1"><use xlink:href="/assets/icons/symbol-defs.svg#icon-brightness_1"></use></svg></div>
+
+
   <div class="swiper-wrapper">
-    
+    {% assign works = site.work | sort: 'position' | where: "is-featured", "true" %}
+    {% for work in works %}
+      <div class="swiper-slide small-10 medium-7 padding-horizontal-2 cell text-center">
+            {% assign image = work.image %}
+            <div class="margin-bottom-2 slide" data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}">
 
-      {% assign works = site.work | sort: 'position' | where: "is-featured", "true" %}
-      {% for work in works %}
+              <a href="{{ work.url }}">      
 
+              <div class="content grid-y align-center show-for-large">
+                <div class="shrink cell padding-1">
+                
 
-          <div class="swiper-slide small-10 medium-7 padding-horizontal-2 cell text-center">
-              {% assign image = work.image %}
-              <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}">
-                <div class="content grid-y align-center show-for-large">
-                  <div class="shrink cell padding-1">
-                  
-                      <a href="{{ work.url }}">      
-                        <div class="grid-x align-center">
-                          <div class="small-10 medium-10 large-10 cell">
-                            <div class="margin-vertical-2">{{ work.excerpt }}</div>
-                            <svg class="icon icon-call_made"><use xlink:href="/assets/icons/symbol-defs.svg#icon-call_made"></use></svg>
-                          </div>
+                      <div class="grid-x align-center">
+                        <div class="small-10 medium-10 large-8 cell">
+                          <div class="text-lowercase">Client — {{ work.client }}</div>
+                          <div class="text-lowercase">Subject — {{ work.subject }}</div>
+                          <div class="margin-top-2">{{ work.excerpt | markdownify }}</div>
                         </div>
-                      </a>
+                      </div>
+                    
 
-                  </div>
                 </div>
               </div>
+              
+              </a>
 
-              <div class="sans-regular white">{{ work.client }} — <span class="dark-gray">{{ work.title }}</span></div>
-          </div>
+            </div>
 
-      {% endfor %}
+            <div class="text-lowercase">{{ work.client }} — {{ work.title }}</div>
+            <div class="text-lowercase">{{ work.subject }}</div>
 
+        </div>
+    {% endfor %}
   </div>
+
 </div>

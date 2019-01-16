@@ -9,7 +9,7 @@ layout: compress
 {% include site/head.html %}
 <!-- End Head -->
 
-<body class="{{page.layout | slugify}} grid-y grid-padding-x" style="height: 100vh;">
+<body class="{{page.layout | slugify}} grid-y" style="height: 100vh;">
 
   <!-- Header -->
   <div class="cell shrink" style="z-index: 1039">
@@ -19,7 +19,7 @@ layout: compress
   
   <!-- Main -->
   <div class="cell auto" id="main" data-aos="fade-in" data-aos-delay="50">
-    <main class="grid-x grid-padding-x align-middle" style="min-height: 100%">
+    <main class="grid-x align-middle" style="min-height: 100%">
       <div class="cell">
       {{content}}
       </div>
