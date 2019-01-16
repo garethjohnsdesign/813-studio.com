@@ -4,7 +4,7 @@ date: 2018-10-01 00:02:00 Z
 position: 6
 subject: Pete Reed OBE
 image: "/uploads/pete-reed-02.jpg"
-video: https://www.youtube.com/watch?v=5NyAhWc8d8Q&t=9s
+video: https://www.youtube.com/watch?v=J8-30Eema6Q
 images:
 - image: "/uploads/pete-reed-01.jpg"
   aspect: landscape
