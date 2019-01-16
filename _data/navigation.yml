@@ -1,6 +1,4 @@
-header:
-#   - title: Time
-#     url: /time/  
+header: 
   - title: About
     url: /about/  
   - title: Work
