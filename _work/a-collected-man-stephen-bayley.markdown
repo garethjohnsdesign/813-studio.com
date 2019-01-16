@@ -1,8 +1,8 @@
 ---
 title: Between the Hours Of
-subject: Stephen Bayley
 date: 2018-10-01 00:02:00 Z
 position: 6
+subject: Stephen Bayley
 image: "/uploads/stephen-bayley-03.jpg"
 video: https://www.youtube.com/watch?v=gA4w1qXdgC8
 images:
