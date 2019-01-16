@@ -7,10 +7,10 @@ details:
 - title: New Business
   text: "Jonnie Craig  \n[jc@813-studio.com](mailto:jc@813-studio.com)"
 - title: Press + Media
-  text: "[press@hotfeet.co](mailto:press@hotfeet.co)"
+  text: "[press@813-studio.com](mailto:press@813-studio.com)"
 - title: Location
-  text: "Studio 17  \n92-96 De Beauvoir Road  \nLondon N1 4EN  \nUnited Kingdom —
-    [Map](https://goo.gl/maps/532VLCUShQ62)"
+  text: "Unit 82 52 -56 Standard Road, London, NW10 6EU —
+    [Map](https://goo.gl/maps/uUZERk6jRjS2)"
 - title: Collaborators
   text: We enjoy some great working relationships with some hugely talented creative
     specialists. We’re always looking to add to our network so to arrange a chat,

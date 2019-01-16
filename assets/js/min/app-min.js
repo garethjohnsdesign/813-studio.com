@@ -7791,7 +7791,7 @@ Foundation.Interchange.SPECIAL_QUERIES["medium-retina"]="only screen and (min-wi
 // --------------------
 $(function(){AOS.init({offset:64,easing:"ease-in-out-quart",duration:600})}),$(function(){window.addEventListener("load",AOS.refresh)}),$(document).ready(function(){
 //initialize swiper when document ready
-var e=new Swiper(".swiper-container",{direction:"horizontal",slidesPerView:"auto",centeredSlides:!0,loop:!0,slideToClickedSlide:!0})}),$(".video").lightGallery({counter:!1,videoMaxWidth:"1080px",youtubePlayerParams:{modestbranding:1,showinfo:0,rel:0,autoplay:0},vimeoPlayerParams:{autoplay:0,title:0,byline:0,portrait:0,color:"FFFFFF"}})}
+var e=new Swiper(".swiper-container",{direction:"horizontal",slidesPerView:"auto",centeredSlides:!0,loop:!0})}),$(".video").lightGallery({counter:!1,videoMaxWidth:"1080px",youtubePlayerParams:{modestbranding:1,showinfo:0,rel:0,autoplay:0},vimeoPlayerParams:{autoplay:0,title:0,byline:0,portrait:0,color:"FFFFFF"}})}
 // Run once
 // ---------------------------------------------
 // ---------------------------------------------

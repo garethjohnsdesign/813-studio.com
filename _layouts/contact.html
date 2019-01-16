@@ -6,7 +6,7 @@ layout: default
   <div class="grid-x grid-padding-x grid-padding-y align-center margin-vertical-1">
 
      {% for detail in page.details %}
-      <div class="small-12 medium-8 cell text-center" data-aos="fade-in">
+      <div class="small-12 medium-6 cell text-center">
         <div class="medium-gray margin-bottom-1"><span class="underline">{{detail.title}}</span></div>
         {{detail.text | markdownify}}
       </div>

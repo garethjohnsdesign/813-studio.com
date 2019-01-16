@@ -33,8 +33,8 @@ $(document).ready(function () {
       direction: 'horizontal',
       slidesPerView: 'auto',
       centeredSlides: true,
-      loop: true,
-      slideToClickedSlide: true    
+      loop: true
+//       slideToClickedSlide: true    
     })
   });
 

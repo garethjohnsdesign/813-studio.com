@@ -1,5 +1,6 @@
 ---
-title: Craig Muir
+title: Seamaster 70th Anniversary
+subject: Craig Muir
 date: 2018-10-01 00:02:00 Z
 position: 6
 image: "/uploads/craig-muir-03.jpg"
@@ -20,4 +21,4 @@ is-featured: true
 layout: project
 ---
 
-Based on the Orkney Islands in Scotland, offshore diver Craig Muir would rather be 007 than shackled 9 to 5. Suit up for a day beneath the waves with Craig and his 2006 Seamaster Planet Ocean.
+Episode two of a five part video series for Omega watches, celebrating the 70th anniversary of the Seamaster wristwatch.  We produced, directed and edited the series, which was distributed online via A Collected Man. This episode features Craig Muir, a commercial saturation diver and watch collector, residing on the remote Orkney islands, north of Scotland. 
