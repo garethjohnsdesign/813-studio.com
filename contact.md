@@ -13,11 +13,16 @@ details:
 - title: Collaborators
   text: We enjoy some great working relationships with some hugely talented creative
     specialists. We’re always looking to add to our network so to arrange a chat,
-    send an email to [work@813-studio.com](mailto:work@813-studio.com) with some examples of
-    your work.
+    send an email to [work@813-studio.com](mailto:work@813-studio.com) with some examples
+    of your work.
 - title: Full time positions, freelancers and internships
-  text: |-
-    There are currently no permanent full-time positions available, but we do occasionally use freelancers and sometimes run paid internships. Typically internships run for a three-month period. Interns will enjoy valuable hands-on experience in a friendly, busy studio contributing directly to client projects. We always like to hear from talented people so do send a CV and examples of your work (no PDFs over 5MB please) to [work@hotfeet.co](mailto:work@hotfeet.co) and let us know which role you are looking for.
+  text: There are currently no permanent full-time positions available, but we do
+    occasionally use freelancers and sometimes run paid internships. Typically internships
+    run for a three-month period. Interns will enjoy valuable hands-on experience
+    in a friendly, busy studio contributing directly to client projects. We always
+    like to hear from talented people so do send a CV and examples of your work (no
+    PDFs over 5MB please) to [work@hotfeet.co](mailto:work@hotfeet.co) and let us
+    know which role you are looking for.
 layout: contact
 ---
 
