@@ -9,7 +9,7 @@ layout: default
     <div class="small-12 cell">
 
       {% assign image = page.image %}
-      <div data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" class="image">
+      <div data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}" class="image">
         {% if page.video %}
         <div class="grid-y height-100 align-center video content">
           <div class="shrink cell text-center" data-src="{{page.video}}">
@@ -48,7 +48,7 @@ layout: default
 
 <!-- Images -->
 <div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center project__meta">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
     {% for picture in page.images %}
      {% if picture.aspect == "landscape" %}
      <div class="small-12 medium-12 cell">
@@ -74,7 +74,7 @@ layout: default
       <div class="small-12 medium-4 padding-vertical-3 {% if work.is-full-width %}medium-12{% endif %} cell text-center">
         <a href="{{ work.url }}">
           {% assign image = work.image %}
-          <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div>
+          <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>
             <div class="text-lowercase">{{ work.client }} — {{ work.title }}</div>
             <div class="text-lowercase">{{ work.subject }}</div>
         </a>
