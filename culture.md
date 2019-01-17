@@ -1,5 +1,6 @@
 ---
 title: Culture
+position: 0
 images:
 - "/uploads/culture-01.jpg"
 - "/uploads/culture-02.jpg"

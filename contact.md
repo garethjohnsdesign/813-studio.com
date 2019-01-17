@@ -1,6 +1,6 @@
 ---
 title: Contact
-position: 3
+position: 6
 details:
 - title: Jonnie Craig
   text: "co-founder — creative director  \n[jc@813-studio.com](mailto:jc@813-studio.com)"
