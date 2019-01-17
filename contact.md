@@ -11,10 +11,7 @@ details:
 - title: General Enquiries — New Business
   text: "[enquiries@813-studio.com](mailto:enquiries@813-studio.com)"
 - title: Location
-  text: |-
-    Unit 82 52 -56 Standard Road\
-    London NW10 6EU\
-    [Map](https://goo.gl/maps/uUZERk6jRjS2)
+  text: "Unit 82 52 -56 Standard Road  \nLondon NW10 6EU   \n[Map](https://goo.gl/maps/uUZERk6jRjS2)"
 - title: Collaborators
   text: We enjoy working with focussed and talented creatives and are constantly searching
     for collaborators. If you feel you fit the description, send an email to [enquiries@813-studio.com](mailto:enquiries@813-studio.com)
