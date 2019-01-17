@@ -51,14 +51,13 @@ future: true
 social:
   instagram: https://www.instagram.com/813.studio/
 clients:
-  bbc: https://www.bbc.co.uk
-  conde-nast: https://www.condenast.co.uk
-  nike: https://www.nike.com
-  refinery-29: https://www.refinery29.com
-  the-guardian: https://www.theguardian.com
-  the-new-york-times: https://www.nytimes.com
-  vice: https://www.vice.com
-  youtube: https://www.universalpictures.com
+  a-collected-man: https://www.smythson.com
+  the-collectors-index: https://www.smythson.com
+  smythson: https://www.smythson.com
+  barbour: https://www.barbour.com
+  galvan: https://www.galvanlondon.com
+  omega: https://www.omegawatches.com
+  toni-and-guy: https://toniandguy.com
 compress_html:
   comments:
   - "<!-- "

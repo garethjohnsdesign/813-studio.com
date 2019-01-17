@@ -4,8 +4,13 @@ layout: default
 
 <div class="swiper-container">
 
+<!--
   <div class="swiper-button-prev-test flex-container align-center-middle"><svg class="icon icon-brightness_1"><use xlink:href="/assets/icons/symbol-defs.svg#icon-brightness_1"></use></svg></div>
   <div class="swiper-button-next-test flex-container align-center-middle"><svg class="icon icon-brightness_1"><use xlink:href="/assets/icons/symbol-defs.svg#icon-brightness_1"></use></svg></div>
+-->
+
+  <div class="swiper-button-prev-test flex-container align-center-middle"></div>
+  <div class="swiper-button-next-test flex-container align-center-middle"></div>
 
 
   <div class="swiper-wrapper">
@@ -36,9 +41,11 @@ layout: default
               </a>
 
             </div>
-
+            
+            <div class="meta">
             <div class="text-lowercase">{{ work.client }} — {{ work.title }}</div>
             <div class="text-lowercase">{{ work.subject }}</div>
+            </div>
 
         </div>
     {% endfor %}

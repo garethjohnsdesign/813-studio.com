@@ -27,10 +27,10 @@ layout: default
 
 <!-- Clients -->
 <div class="grid-container padding-vertical-3">
-  <div class="grid-x grid-padding-x grid-padding-y small-up-2 medium-up-4 medium-gray">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-2 medium-up-5 medium-gray">
 
     {% for item in site.clients %}  
-    <div class="cell text-center">
+    <div class="cell text-center padding-vertical-1">
         <a href="{{ item[1] }}" target="_blank" rel="noopener"><span class="show-for-sr">{{ item[0] }}</span><svg class="icon icon-clients icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a>
     </div>
     {% endfor %} 

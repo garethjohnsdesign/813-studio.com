@@ -1236,24 +1236,14 @@
 		"oAP": "/assets/fonts/gt-haptik-regular.woff2",
 		"oF": 0
 		},
-	"/assets/icons/symbol-defs.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "/assets/icons/symbol-defs.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"/assets/img/arrow-left.png": {
 		"ft": 32768,
 		"iS": 243,
 		"oA": 0,
 		"oAP": "/assets/img/arrow-left.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1273,8 +1263,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/arrow-left@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1284,8 +1274,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/arrow-left@3x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1295,8 +1285,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/arrow-right.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1316,8 +1306,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/arrow-right@2x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
@@ -1327,8 +1317,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/arrow-right@3x.png",
 		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
+		"oIPL": 1,
+		"opt": 1,
 		"oT": 1,
 		"q": 100
 		},
