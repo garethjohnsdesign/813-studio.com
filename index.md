@@ -1,6 +1,6 @@
 ---
 title: 813 Studio
-position: 2
+position: 0
 image: "/assets/img/og-image.png"
 layout: home
 ---
