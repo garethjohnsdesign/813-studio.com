@@ -10,8 +10,6 @@ images:
   aspect: landscape
 - image: "/uploads/stephen-bayley-02.jpg"
   aspect: landscape
-- image: "/uploads/stephen-bayley-03.jpg"
-  aspect: landscape
 client: A Collected Man
 is-featured: true
 layout: project

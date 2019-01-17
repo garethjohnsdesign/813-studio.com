@@ -6,8 +6,6 @@ subject: Michael Hill
 image: "/uploads/michael-hill-01.jpg"
 video: https://www.youtube.com/watch?v=cyWTTgpfuQw
 images:
-- image: "/uploads/michael-hill-01.jpg"
-  aspect: landscape
 - image: "/uploads/michael-hill-02.jpg"
   aspect: landscape
 - image: "/uploads/michael-hill-03.jpg"

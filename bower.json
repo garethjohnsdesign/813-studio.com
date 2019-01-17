@@ -33,7 +33,7 @@
   ],
   "private": true,
   "dependencies": {
-    "aos": "^2.2.0",
+    "aos": "^2.3.4",
     "foundation-sites": "^6.4.3",
     "svgxuse": "^1.2.4",
     "what-input": "^5.0.2",

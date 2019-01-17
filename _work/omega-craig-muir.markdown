@@ -10,8 +10,6 @@ images:
   aspect: landscape
 - image: "/uploads/craig-muir-02.jpg"
   aspect: landscape
-- image: "/uploads/craig-muir-03.jpg"
-  aspect: landscape
 - image: "/uploads/craig-muir-04.jpg"
   aspect: landscape
 - image: "/uploads/craig-muir-05.jpg"

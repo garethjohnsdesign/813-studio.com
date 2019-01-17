@@ -1,29 +1,15 @@
 ---
-layout: compress
+layout: default
 ---
 
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-
-<!-- Head -->
-{% include site/head.html %}
-<!-- End Head -->
-
-<body class="{{page.layout | slugify}}" style="height: 100vh;">
-
-  <div class="grid-y align-center" style="min-height: 100%;">
-    
-    <div class="small-10 medium-8 cell">
-      <div class="grid-x grid-padding-x align-center">
-        <div class="small-11 medium-6 cell h1">
-          <div class="hour"></div>
-          <div class="min"></div>
-          <div class="sec"></div>
-        </div>
-      </div>
-    </div>
-    
+<div class="grid-x grid-padding-x align-center">
+  <div class="small-11 medium-6 cell h1">
+    <div class="hour"></div>
+    <div class="min"></div>
+    <div class="sec"></div>
   </div>
+</div>
+    
 
 <script>
 (function() {

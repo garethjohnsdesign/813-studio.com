@@ -4757,7 +4757,7 @@ html.is-reveal-open {
   padding: 1rem;
   border: 1px solid #cacaca;
   border-radius: 0;
-  background-color: #212222;
+  background-color: rgba(33, 34, 34, 0.95);
   position: relative;
   top: 100px;
   margin-right: auto;
@@ -7500,6 +7500,16 @@ p a {
     padding-top: 56.25%; }
   .image .content {
     transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%; }
+  .image .content-type {
+    z-index: 0;
     position: absolute;
     top: 0;
     left: 0;
@@ -7519,6 +7529,16 @@ p a {
     padding-top: 56.25%; }
   .slide .content {
     transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%; }
+  .slide .content-type {
+    z-index: 0;
     position: absolute;
     top: 0;
     left: 0;

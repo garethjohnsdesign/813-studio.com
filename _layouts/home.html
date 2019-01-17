@@ -25,7 +25,7 @@ layout: default
     {% for work in works %}
       <div class="swiper-slide small-10 medium-7 padding-horizontal-2 cell text-center">
             {% assign image = work.image %}
-            <div class="margin-bottom-2 slide" data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}">
+            <div class="margin-bottom-2 slide align-middle" data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}">
 
               <a href="{{ work.url }}">      
 
@@ -44,6 +44,25 @@ layout: default
 
                 </div>
               </div>
+
+              {% if work.video %}
+              <div class="content-type grid-y align-center show-for-medium">
+                <div class="shrink cell padding-1">
+                
+
+                      <div class="grid-x align-center">
+                        <div class="small-10 medium-10 large-8 cell">
+<svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg>
+                        </div>
+                      </div>
+                    
+
+                </div>
+              </div>
+              {% endif %}
+
+
+
               
               </a>
 

@@ -130,6 +130,17 @@ p a {
   }
  .content {
     transition: $primary-transition;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+ .content-type {
+    z-index: 0;
     position: absolute;
     top: 0;
     left: 0;

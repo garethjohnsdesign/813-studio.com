@@ -8,8 +8,6 @@ video: https://www.youtube.com/watch?v=J8-30Eema6Q
 images:
 - image: "/uploads/pete-reed-01.jpg"
   aspect: landscape
-- image: "/uploads/pete-reed-02.jpg"
-  aspect: landscape
 - image: "/uploads/pete-reed-03.jpg"
   aspect: landscape
 - image: "/uploads/pete-reed-04.jpg"
