@@ -17,10 +17,10 @@ defaults:
     type: work
   values:
     image: 
-    subject:
-    video:
+    subject: 
+    video: 
     excerpt: 
-    description:  
+    description: 
     is-featured: 
     images:
     - image: 
