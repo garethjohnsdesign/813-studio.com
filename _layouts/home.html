@@ -2,12 +2,19 @@
 layout: default
 ---
 
-<div class="swiper-container">
+<!-- Works -->
+<div class="grid-container show-for-small-only">
+  <div class="grid-x grid-padding-x grid-padding-y">
+    {% assign works = site.work | sort: 'position' | where: "is-featured", "true" %}
+    {% for work in works %}
+      {% include blocks/excerpt.html %}
+    {% endfor %}
+  </div>
+</div>
+<!-- End Works -->
 
-<!--
-  <div class="swiper-button-prev-test flex-container align-center-middle"><svg class="icon icon-brightness_1"><use xlink:href="/assets/icons/symbol-defs.svg#icon-brightness_1"></use></svg></div>
-  <div class="swiper-button-next-test flex-container align-center-middle"><svg class="icon icon-brightness_1"><use xlink:href="/assets/icons/symbol-defs.svg#icon-brightness_1"></use></svg></div>
--->
+
+<div class="swiper-container show-for-medium">
 
   <div class="swiper-button-prev-test flex-container align-center-middle"></div>
   <div class="swiper-button-next-test flex-container align-center-middle"></div>
