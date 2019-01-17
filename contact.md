@@ -5,7 +5,9 @@ details:
 - title: Jonnie Craig
   text: "co-founder — creative director  \n[jc@813-studio.com](mailto:jc@813-studio.com)"
 - title: Alex Geoffrey
-  text: "co-founder — art director  \n[jc@813-studio.com](mailto:jc@813-studio.com)"
+  text: "co-founder — art director  \n[ag@813-studio.com](mailto:ag@813-studio.com)"
+- title: Matt Hanson
+  text: "account director  \n[mh@813-studio.com](mailto:mh@813-studio.com)"
 - title: General Enquiries — New Business
   text: "[enquiries@813-studio.com](mailto:enquiries@813-studio.com)"
 - title: Location
