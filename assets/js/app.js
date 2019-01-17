@@ -101,7 +101,7 @@ setInterval(function() {
 
     setTimeout(function(){
      $(".loader").addClass("loaded");
-    }, 5000); 
+    }, 3000); 
 
     $.cookie('showed_modal', 'true', { expires: 365 }); 
   }
