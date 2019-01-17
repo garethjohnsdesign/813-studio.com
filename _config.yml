@@ -51,13 +51,12 @@ future: true
 social:
   instagram: https://www.instagram.com/813.studio/
 clients:
-  a-collected-man: https://www.acollectedman.com
-  the-collectors-index: https://thecollectorsindex.com
+  omega: https://www.omegawatches.com
   smythson: https://www.smythson.com
+  the-collectors-index: https://thecollectorsindex.com
   barbour: https://www.barbour.com
   galvan: https://www.galvanlondon.com
-  omega: https://www.omegawatches.com
-  toni-and-guy: https://toniandguy.com
+  a-collected-man: https://www.acollectedman.com
 compress_html:
   comments:
   - "<!-- "
