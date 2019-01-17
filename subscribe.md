@@ -1,6 +1,6 @@
 ---
 title: Subscribe
-position: 3
+position: 6
 image: "/assets/img/og-image.png"
 layout: subscribe
 ---
