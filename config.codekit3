@@ -135,6 +135,13 @@
 		"oAP": "/_includes/site/header.html",
 		"oF": 0
 		},
+	"/_includes/site/loading.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_includes/site/loading.html",
+		"oF": 0
+		},
 	"/_includes/site/scripts.html": {
 		"cB": 0,
 		"ft": 8192,

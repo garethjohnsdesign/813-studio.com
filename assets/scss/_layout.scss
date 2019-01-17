@@ -37,6 +37,10 @@ a {
   transition: all .35s cubic-bezier(.39, .575, .565, 1);
 }
 
+a:focus {
+color: $white;
+}
+
 body {
   cursor: default;
   font-kerning: normal;
@@ -303,3 +307,23 @@ url('/assets/img/arrow-right@3x.png') 3x
 ) 16 16, auto !important;
 }
 */
+
+// 5. Loading
+// ------
+
+.loader {
+  z-index: 1040;
+  position: fixed;
+  background: $black;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 1;
+  transition: $primary-transition;
+  visibility: visible; 
+  &.loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

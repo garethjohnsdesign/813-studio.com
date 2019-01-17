@@ -12,19 +12,17 @@ $(document).ready(function() {
 $(document).foundation();
 
 
+// 1. Loading
+// --------------------
+
 $(function() {
   if($.cookie('showed_modal') != "true") {
 
-setTimeout(
-  function() 
-  {
-    //do something special
-$("#cookiesPolicy").foundation("open")
-  }, 2000);
+    $(".loader").removeClass("hide");
 
-//     $("#cookiesPolicy").foundation("open");
-//     $.cookie('showed_modal', 'true', { expires: 365, path: '/'}); 
-
+    setTimeout(function(){
+     $(".loader").addClass("loaded");
+    }, 5000); 
 
     $.cookie('showed_modal', 'true', { expires: 365 }); 
   }

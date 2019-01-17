@@ -7402,6 +7402,9 @@ button.swiper-pagination-bullet {
 a {
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1); }
 
+a:focus {
+  color: #fefefe; }
+
 body {
   cursor: default;
   font-kerning: normal; }
@@ -7625,3 +7628,17 @@ url('/assets/img/arrow-right@3x.png') 3x
 ) 16 16, auto !important;
 }
 */
+.loader {
+  z-index: 1040;
+  position: fixed;
+  background: #212222;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
+  visibility: visible; }
+  .loader.loaded {
+    opacity: 0;
+    visibility: hidden; }
