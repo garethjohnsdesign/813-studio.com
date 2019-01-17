@@ -44,13 +44,6 @@
 		"oAP": "/_includes/images/interchange-img-small-12-medium-12-cell.html",
 		"oF": 0
 		},
-	"/_includes/images/interchange-img-small-12-medium-4-cell.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_includes/images/interchange-img-small-12-medium-4-cell.html",
-		"oF": 0
-		},
 	"/_includes/images/interchange-img-small-12-medium-6-cell.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -79,6 +72,13 @@
 		"oAP": "/_includes/off-canvas/subscribe.html",
 		"oF": 0
 		},
+	"/_includes/pagination.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "/_includes/pagination.html",
+		"oF": 0
+		},
 	"/_includes/pagination/collection.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -93,25 +93,11 @@
 		"oAP": "/_includes/reveal/navigation.html",
 		"oF": 0
 		},
-	"/_includes/reveal/newsletter.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_includes/reveal/newsletter.html",
-		"oF": 0
-		},
 	"/_includes/site/analytics.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_includes/site/analytics.html",
-		"oF": 0
-		},
-	"/_includes/site/cookies.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_includes/site/cookies.html",
 		"oF": 0
 		},
 	"/_includes/site/footer.html": {
@@ -133,13 +119,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_includes/site/header.html",
-		"oF": 0
-		},
-	"/_includes/site/loading.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_includes/site/loading.html",
 		"oF": 0
 		},
 	"/_includes/site/scripts.html": {
@@ -224,13 +203,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "/_layouts/project.html",
-		"oF": 0
-		},
-	"/_layouts/subscribe.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "/_layouts/subscribe.html",
 		"oF": 0
 		},
 	"/_layouts/time.html": {
@@ -1236,14 +1208,24 @@
 		"oAP": "/assets/fonts/gt-haptik-regular.woff2",
 		"oF": 0
 		},
+	"/assets/icons/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/assets/icons/symbol-defs.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"/assets/img/arrow-left.png": {
 		"ft": 32768,
 		"iS": 243,
 		"oA": 0,
 		"oAP": "/assets/img/arrow-left.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1263,8 +1245,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/arrow-left@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1274,8 +1256,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/arrow-left@3x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1285,8 +1267,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/arrow-right.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1306,8 +1288,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/arrow-right@2x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1317,8 +1299,8 @@
 		"oA": 0,
 		"oAP": "/assets/img/arrow-right@3x.png",
 		"oF": 0,
-		"oIPL": 1,
-		"opt": 1,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1359,16 +1341,6 @@
 		"mi": 1,
 		"oA": 0,
 		"oAP": "/assets/js/min/min/app-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"/assets/js/min/foundation-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/min/foundation-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -5816,32 +5788,6 @@
 		"oA": 2,
 		"oAP": "/bower_components/foundation-sites/shrinkwrap.yaml",
 		"oF": 0
-		},
-	"/bower_components/jquery.cookie/.bower.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/bower_components/jquery.cookie/.bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/bower_components/jquery.cookie/bower.json": {
-		"ft": 524288,
-		"oA": 2,
-		"oAP": "/bower_components/jquery.cookie/bower.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/bower_components/jquery.cookie/jquery.cookie.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 1,
-		"oAP": "/bower_components/jquery.cookie/jquery.cookie.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
 		},
 	"/bower_components/jquery/.bower.json": {
 		"ft": 524288,
@@ -10911,9 +10857,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 2,
-		"oAP": "/privacy.md",
-		"oF": 1,
+		"oA": 0,
+		"oAP": "/privacy.html",
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -10946,24 +10892,6 @@
 		"oAP": "/robots.txt",
 		"oF": 0
 		},
-	"/subscribe.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "/subscribe.md",
-		"oF": 1,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
 	"/terms.md": {
 		"cB": 0,
 		"cS": 0,
@@ -10990,9 +10918,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
-		"oAP": "/time.html",
-		"oF": 0,
+		"oA": 2,
+		"oAP": "/time.md",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -11081,12 +11009,6 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "/bower_components/swiper/dist/js/swiper.min.js",
 			"position": 9,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 0,
-			"linkedFileAbbreviatedPath": "/bower_components/jquery.cookie/jquery.cookie.js",
-			"position": 10,
 			"type": 0
 			}
 		]
