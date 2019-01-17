@@ -101,7 +101,7 @@ setInterval(function() {
 
     setTimeout(function(){
      $(".loader").addClass("loaded");
-    }, 3000); 
+    }, 5000); 
 
     $.cookie('showed_modal', 'true', { expires: 365 }); 
   }
@@ -136,6 +136,11 @@ $(document).ready(function () {
       loop: true,
       preventClicks: true,
       slideToClickedSlide: false,
+
+  keyboard: {
+    enabled: true,
+    onlyInViewport: false,
+  },
 
     navigation: {
       nextEl: '.swiper-button-next-test',
