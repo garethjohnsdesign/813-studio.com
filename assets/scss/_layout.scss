@@ -342,3 +342,9 @@ url('/assets/img/arrow-right@3x.png') 3x
     visibility: hidden;
   }
 }
+
+main {
+  @include breakpoint(small only) {
+    @include padding(1,1,1,1);
+  }
+}

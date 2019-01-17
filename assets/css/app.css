@@ -7681,3 +7681,10 @@ html.is-animating .swup-transition-color {
   .loader.loaded {
     opacity: 0;
     visibility: hidden; }
+
+@media screen and (max-width: 39.99875em) {
+  main {
+    padding-top: 1rem !important;
+    padding-right: 1rem !important;
+    padding-bottom: 1rem !important;
+    padding-left: 1rem !important; } }

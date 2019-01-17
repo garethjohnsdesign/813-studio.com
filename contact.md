@@ -2,27 +2,18 @@
 title: Contact
 position: 3
 details:
-- title: General Enquiries
+- title: Jonnie Craig
+  text: "co-founder — creative director  \n[jc@813-studio.com](mailto:jc@813-studio.com)"
+- title: Alex Geoffrey
+  text: "co-founder — art director  \n[jc@813-studio.com](mailto:jc@813-studio.com)"
+- title: General Enquiries — New Business
   text: "[enquiries@813-studio.com](mailto:enquiries@813-studio.com)"
-- title: New Business
-  text: "Jonnie Craig  \n[jc@813-studio.com](mailto:jc@813-studio.com)"
-- title: Press + Media
-  text: "[press@813-studio.com](mailto:press@813-studio.com)"
 - title: Location
   text: Unit 82 52 -56 Standard Road, London, NW10 6EU — [Map](https://goo.gl/maps/uUZERk6jRjS2)
 - title: Collaborators
-  text: We enjoy some great working relationships with some hugely talented creative
-    specialists. We’re always looking to add to our network so to arrange a chat,
-    send an email to [work@813-studio.com](mailto:work@813-studio.com) with some examples
-    of your work.
+  text: We enjoy working with focussed and talented creatives and are constantly searching for collaborators. If you feel you fit the description, send an email to [enquiries@813-studio.com](mailto:enquiries@813-studio.com) with some examples of your work.
 - title: Full time positions, freelancers and internships
-  text: There are currently no permanent full-time positions available, but we do
-    occasionally use freelancers and sometimes run paid internships. Typically internships
-    run for a three-month period. Interns will enjoy valuable hands-on experience
-    in a friendly, busy studio contributing directly to client projects. We always
-    like to hear from talented people so do send a CV and examples of your work (no
-    PDFs over 5MB please) to [work@hotfeet.co](mailto:work@hotfeet.co) and let us
-    know which role you are looking for.
+  text: We currently have no permanent full-time positions available, but we do regularly use freelances and run paid internships at our studio. A typical internship would run for a three-month period, enabling valuable, hands-on experience in a friendly, busy studio contributing directly to client projects. We are always interested in hearing from talented people so, if you feel that you fit the brief, send a CV and some examples of your work (no PDFs over 5MB) to [enquiries@813-studio.com](mailto:enquiries@813-studio.com) and let us know what role you’re interested in.
 layout: contact
 ---
 
