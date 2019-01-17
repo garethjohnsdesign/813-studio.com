@@ -69,7 +69,7 @@ layout: default
             </div>
             
             <div class="meta">
-            <div class="text-lowercase">{{ work.client }} — {{ work.title }}</div>
+            <div class="text-lowercase">{{ work.client }} {% if work.project %}— {{ work.project }}{% endif %}</div>
             <div class="text-lowercase">{{ work.subject }}</div>
             </div>
 

@@ -1,7 +1,8 @@
 ---
-title: Seamaster 70th Anniversary
+title: Seamaster 70th Anniversary — Craig Muir
 date: 2018-10-01 00:02:00 Z
 position: 6
+project: Seamaster 70th Anniversary
 subject: Craig Muir
 image: "/uploads/craig-muir-03.jpg"
 video: https://www.youtube.com/watch?v=zS0dUEOns0g
