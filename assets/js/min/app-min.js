@@ -7837,4 +7837,4 @@ var e=new Swiper(".swiper-container",{direction:"horizontal",slidesPerView:"auto
 // ---------------------------------------------
 // Page Transitions
 // ---------------------------------------------
-var t;e(),new Swup({animationSelector:'[class*="swup-transition-"]',elements:["#main","#maintest"]}).on("contentReplaced",function(){e()})});
+var t;e(),new Swup({animationSelector:'[class*="swup-transition-"]',elements:["#main"]}).on("contentReplaced",function(){e()})});

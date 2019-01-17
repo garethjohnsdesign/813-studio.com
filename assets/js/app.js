@@ -99,7 +99,7 @@ $('.video').lightGallery({
 
   var swup = new Swup({
     animationSelector: '[class*="swup-transition-"]',
-    elements: ['#main', '#maintest']
+    elements: ['#main']
   });
 
   swup.on('contentReplaced', function () {
