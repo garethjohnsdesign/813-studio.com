@@ -38,7 +38,9 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-company: 813 Studio
+company: 813 Studio Ltd
+company-registration: 10766338
+company-address: Unit 82 52 -56 Standard Road, London, NW10 6EU
 email: enquiries@813-studio.com
 google_site_verification: 
 analytics: 
