@@ -11,6 +11,21 @@ collections:
   work:
     title: Work
     output: true
+defaults:
+- scope:
+    path: ''
+    type: work
+  values:
+    image: 
+    subject: 
+    video: 
+    excerpt: 
+    description: 
+    is-featured: 
+    images:
+    - image: 
+      aspect: 
+    layout: project
 url: https://www.813-studio.com
 description: 813 studio is a creative agency servicing brands within the horological
   industry on matters of branding and content production
