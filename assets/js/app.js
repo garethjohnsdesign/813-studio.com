@@ -124,12 +124,15 @@ window.addEventListener('load', AOS.refresh);
 
 
 $(document).ready(function () {
+
+    var firstSlide = Math.floor(Math.random() * 5);
     //initialize swiper when document ready
     var mySwiper = new Swiper ('.swiper-container', {
 
       direction: 'horizontal',
       slidesPerView: 'auto',
       centeredSlides: true,
+      initialSlide: firstSlide,
       loop: true,
       preventClicks: true,
       slideToClickedSlide: false,

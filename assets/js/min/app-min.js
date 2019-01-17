@@ -7839,9 +7839,9 @@ Run updateClock every second
 */if("true"!=$.cookie("showed_modal")){$(".loader").removeClass("hide");var r=["zero","one","two","three","four","five","six","seven","eight","nine"],a=["ten","eleven","twelve","thirteen","fourteen","fifteen","sixteen","seventeen","eighteen","nineteen"],l=["twenty","thirty","forty","fifty"],s=document.getElementsByClassName("hour"),u=document.getElementsByClassName("min"),c=document.getElementsByClassName("sec"),e=!0;setInterval(function(){var e;t(new Date)},1e3),$(".loader").addClass("loading"),setTimeout(function(){$(".loader").addClass("loaded")},5e3),$.cookie("showed_modal","true",{expires:365})}}),
 // 2. Animate on Scroll
 // --------------------
-$(function(){AOS.init({offset:64,easing:"ease-in-out-quart",duration:600})}),$(function(){window.addEventListener("load",AOS.refresh)}),$(document).ready(function(){
+$(function(){AOS.init({offset:64,easing:"ease-in-out-quart",duration:600})}),$(function(){window.addEventListener("load",AOS.refresh)}),$(document).ready(function(){var e=Math.floor(5*Math.random()),t=new Swiper(".swiper-container",{direction:"horizontal",slidesPerView:"auto",centeredSlides:!0,initialSlide:e,loop:!0,preventClicks:!0,slideToClickedSlide:!1,navigation:{nextEl:".swiper-button-next-test",prevEl:".swiper-button-prev-test"}});
 //initialize swiper when document ready
-var e=new Swiper(".swiper-container",{direction:"horizontal",slidesPerView:"auto",centeredSlides:!0,loop:!0,preventClicks:!0,slideToClickedSlide:!1,navigation:{nextEl:".swiper-button-next-test",prevEl:".swiper-button-prev-test"}})}),$(".video").lightGallery({counter:!1,videoMaxWidth:"1080px",youtubePlayerParams:{modestbranding:1,showinfo:0,rel:0,autoplay:0},vimeoPlayerParams:{autoplay:0,title:0,byline:0,portrait:0,color:"FFFFFF"}})}
+}),$(".video").lightGallery({counter:!1,videoMaxWidth:"1080px",youtubePlayerParams:{modestbranding:1,showinfo:0,rel:0,autoplay:0},vimeoPlayerParams:{autoplay:0,title:0,byline:0,portrait:0,color:"FFFFFF"}})}
 // Run once
 // ---------------------------------------------
 // ---------------------------------------------
