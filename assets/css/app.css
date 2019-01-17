@@ -7636,9 +7636,11 @@ url('/assets/img/arrow-right@3x.png') 3x
   left: 0;
   height: 100%;
   width: 100%;
-  opacity: 1;
+  opacity: 0;
   transition: all 0.35s cubic-bezier(0.39, 0.575, 0.565, 1);
   visibility: visible; }
+  .loader.loading {
+    opacity: 1; }
   .loader.loaded {
     opacity: 0;
     visibility: hidden; }
