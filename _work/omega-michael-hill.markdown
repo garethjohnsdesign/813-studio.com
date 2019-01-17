@@ -1,12 +1,11 @@
 ---
-title: Michael Hill
+title: Seamaster 70th Anniversary
 date: 2018-10-01 00:02:00 Z
 position: 6
+subject: Michael Hill
 image: "/uploads/michael-hill-01.jpg"
 video: https://www.youtube.com/watch?v=cyWTTgpfuQw
 images:
-- image: "/uploads/michael-hill-01.jpg"
-  aspect: landscape
 - image: "/uploads/michael-hill-02.jpg"
   aspect: landscape
 - image: "/uploads/michael-hill-03.jpg"
@@ -21,4 +20,4 @@ is-full-width: false
 layout: project
 ---
 
-Michael Hill, Clothier and Creative Director of renowned gentlemen’s' outfitters Drakes, reflects on the synergy between textiles and his beloved 1965, Omega Seamaster 300. Find out why Michael believes rules can be broken, but beautiful objects go on and on and on.
+Episode two of a five part video series for Omega watches, celebrating the 70th anniversary of the Seamaster wristwatch.  We produced, directed and edited the series, which was distributed online via A Collected Man. This episode features Michael Hill, the co-owner and creative director of Drake’s clothing in London. 

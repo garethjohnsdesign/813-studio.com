@@ -38,7 +38,9 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
-company: 813 Studio
+company: 813 Studio Ltd
+company-registration: 10766338
+company-address: Unit 82 52 -56 Standard Road, London, NW10 6EU
 email: enquiries@813-studio.com
 google_site_verification: 
 analytics: 
@@ -49,14 +51,12 @@ future: true
 social:
   instagram: https://www.instagram.com/813.studio/
 clients:
-  bbc: https://www.bbc.co.uk
-  conde-nast: https://www.condenast.co.uk
-  nike: https://www.nike.com
-  refinery-29: https://www.refinery29.com
-  the-guardian: https://www.theguardian.com
-  the-new-york-times: https://www.nytimes.com
-  vice: https://www.vice.com
-  youtube: https://www.universalpictures.com
+  omega: https://www.omegawatches.com
+  smythson: https://www.smythson.com
+  the-collectors-index: https://thecollectorsindex.com
+  barbour: https://www.barbour.com
+  galvan: https://www.galvanlondon.com
+  a-collected-man: https://www.acollectedman.com
 compress_html:
   comments:
   - "<!-- "

@@ -1,7 +1,7 @@
 ---
-title: 813 Studio
+title: Time
 position: 0
 image: "/assets/img/og-image.png"
-layout: home
+layout: time
 ---
 

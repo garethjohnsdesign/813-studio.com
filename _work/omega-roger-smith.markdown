@@ -1,9 +1,8 @@
 ---
-title: Roger Smith
+title: Seamaster 70th Anniversary
 date: 2018-10-01 00:02:00 Z
 position: 6
-excerpt: Roger W. Smith was the apprentice to the late George Daniels, inventor of
-  OMEGA's famous Co-Axial escapement.
+subject: Roger Smith OBE
 image: "/uploads/roger-smith-04.jpg"
 video: https://www.youtube.com/watch?v=5NyAhWc8d8Q
 images:
@@ -24,4 +23,4 @@ is-featured: true
 layout: project
 ---
 
-Roger W. Smith was the apprentice to the late George Daniels, inventor of OMEGA's famous Co-Axial escapement. Join Roger for a spin in his classic Mini with his Seamaster Chronograph Calibre 321 produced in 1968, on the wild and windy Isle of Man.
+Episode two of a five part video series for Omega watches, celebrating the 70th anniversary of the Seamaster wristwatch.  We produced, directed and edited the series, which was distributed online via A Collected Man. This episode features Roger Smith OBE, a world renowned British watchmaker, who was the only apprentice to the master watchmaker George Daniels. 

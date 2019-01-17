@@ -1,4 +1,4 @@
-<nav class="full reveal" id="navigation" data-reveal>
+<nav class="full reveal" id="navigation" data-reveal data-animation-in="fade-in fast" data-animation-out="fade-out fast">
   <div class="grid-x grid-padding-x grid-padding-y align-center-middle" style="height: 100%">
     <div class="shrink cell text-center">
 
@@ -15,16 +15,17 @@
     {% if sublinks %}
     <li{{ current }}><a href="#">{{ entry.title }}</a>
       <ul class="menu vertical nested">
-          {% for sublink in sublinks %}
-          <li><a href="{{ site.baseurl }}{{ sublink.url }}" data-toggle="navigation">{{ sublink.title }}</a></li>
-          {% endfor %}
+        {% for sublink in sublinks %}
+        <li><a href="{{ site.baseurl }}{{ sublink.url }}" data-toggle="navigation">{{ sublink.title }}</a></li>
+        {% endfor %}
        </ul>
     </li>
     <ul class="vertical menu">
       {% else %}
-        <li {{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="h4" data-toggle="navigation">{{ entry.title }}</a></li>
+        <li {{ current }}><a href="{{ site.baseurl }}{{ entry.url }}" class="h3 text-lowercase" data-toggle="navigation">{{ entry.title }}</a></li>
       {% endif %}
       {% endfor %}
+<li {{ current }}><a href="{{ site.baseurl }}/time/" class="h3 text-lowercase margin-top-2" data-toggle="navigation"><svg class="icon icon-clock"><use xlink:href="/assets/icons/symbol-defs.svg#icon-clock"></use></svg></a></li>
     </ul>
 
     </div>

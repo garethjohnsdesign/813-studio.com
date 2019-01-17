@@ -29,7 +29,8 @@ layout: default
 <section class="grid-container">
 <div class="grid-x grid-padding-y align-center project__meta">
   <div class="small-8 medium-7 large-7 cell text-center">
-    <div class="h5">{{ page.client }} — {{ page.title }}</div>
+    <div class="h5 text-lowercase">{{ page.client }} — {{ page.title }}</div>
+    <div class="h5 text-lowercase">{{ page.subject }}</div>
   </div>
 </div>
 </section>
@@ -47,17 +48,17 @@ layout: default
 
 <!-- Images -->
 <div class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y align-center project__meta">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
     {% for picture in page.images %}
      {% if picture.aspect == "landscape" %}
      <div class="small-12 medium-12 cell">
-     {% assign image = picture.image %}
-     <img data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}" data-aos="fade-in">
+    {% assign image = picture.image %}
+    <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div>
      </div>
      {% elsif picture.aspect == "portrait" %}
      <div class="small-12 medium-6 cell">
-     {% assign image = picture.image %}
-     <img data-interchange="{% include images/interchange-img-small-12-medium-6-cell.html %}" data-aos="fade-in">
+    {% assign image = picture.image %}
+    <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div
      </div>
      {% endif %}
     {% endfor %}
@@ -65,19 +66,27 @@ layout: default
 </div>
 <!-- End Images -->
 
-<!-- Works -->
-<div class="grid-container padding-vertical-space-1">
+<!-- Pagination -->
+<div class="grid-container padding-bottom-2">
+
+<div class="grid-x grid-padding-y align-center">
+  <div class="small-12 medium-8 cell text-center">
+    <h5 class="text-lowercase">Similar Projects</h5>
+  </div>
+</div>
+
   <div class="grid-x grid-padding-x grid-padding-y">
     {% assign works = site.work %}
     {% for work in works limit:3 %}
       <div class="small-12 medium-4 {% if work.is-full-width %}medium-12{% endif %} cell text-center">
         <a href="{{ work.url }}">
           {% assign image = work.image %}
-          <div class="margin-bottom-2 light-gray-background image" data-interchange="{% include images/interchange-img-small-12-medium-12-cell.html %}"></div>
-          <div class="sans-regular white">{{ work.client }} — <span class="dark-gray">{{ work.title }}</span></div>
+          <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>
+            <div class="text-lowercase">{{ work.client }} — {{ work.title }}</div>
+            <div class="text-lowercase">{{ work.subject }}</div>
         </a>
       </div>
     {% endfor %}
   </div>
 </div>
-<!-- End Works -->
+<!-- End Pagination -->

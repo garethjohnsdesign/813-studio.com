@@ -1,13 +1,12 @@
 ---
-title: Pete Reed
+title: Seamaster 70th Anniversary
 date: 2018-10-01 00:02:00 Z
 position: 6
+subject: Pete Reed OBE
 image: "/uploads/pete-reed-02.jpg"
-video: https://www.youtube.com/watch?v=5NyAhWc8d8Q&t=9s
+video: https://www.youtube.com/watch?v=J8-30Eema6Q
 images:
 - image: "/uploads/pete-reed-01.jpg"
-  aspect: landscape
-- image: "/uploads/pete-reed-02.jpg"
   aspect: landscape
 - image: "/uploads/pete-reed-03.jpg"
   aspect: landscape
@@ -30,4 +29,4 @@ is-featured: true
 layout: project
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat eleifend.
+Episode four of a five part video series for Omega watches, celebrating the 70th anniversary of the Seamaster wristwatch. We produced, directed and edited the series, which was distributed online via A Collected Man. This episode features lt. cdr. Pete Reed OBE, a three time olympic gold medallist for rowing in Beijing 2008, London 2012 and Rio De Janero 2016. 

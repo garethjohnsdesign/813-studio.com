@@ -3,34 +3,44 @@ layout: compress
 ---
 
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" class="no-js">
 
 <!-- Head -->
 {% include site/head.html %}
 <!-- End Head -->
 
-<body class="{{page.layout | slugify}} grid-y grid-padding-x" style="height: 100vh;">
+<body class="{{page.layout | slugify}} grid-y" style="height: 100vh;">
 
-  <!-- Header -->
-  <div class="cell shrink" style="z-index: 1039">
-    {% include site/header.html %}
+{% if page.layout == "home" %}
+<div class="grid-y align-center loader hide">
+  <div class="shrink cell">
+    {% include site/loading.html %}
   </div>
-  <!-- End Header -->
-  
-  <!-- Main -->
-  <div class="cell auto" id="main" data-aos="fade-in" data-aos-delay="50">
-    <main class="grid-x grid-padding-x align-middle" style="min-height: 100%">
-      <div class="cell">
-      {{content}}
-      </div>
-    </main>
-  </div>
-  <!-- Main -->
+</div>
+{% endif %}
 
-  <!-- Navigation -->
-  {% include reveal/navigation.html %}
-  <!-- End Navigation -->
+
+<!-- Header -->
+<div class="cell shrink" style="z-index: 1039" data-aos="fade-in" data-aos-delay="100">
+{% include site/header.html %}
+</div>
+<!-- End Header -->
+
+<!-- Main -->
+<div class="cell auto" id="main" data-aos="fade-in" data-aos-delay="100">
+  <main class="grid-x align-middle" style="min-height: 100%">
+    <div class="cell">
+    {{content}}
+    </div>
+  </main>
+</div>
+<!-- Main -->
+
+<!-- Navigation -->
+{% include reveal/navigation.html %}
+<!-- End Navigation -->
 
 </body>
+
 
 </html>
