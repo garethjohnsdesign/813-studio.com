@@ -1034,7 +1034,7 @@
 		},
 	"/assets/favicons/android-chrome-192x192.png": {
 		"ft": 32768,
-		"iS": 2502,
+		"iS": 2227,
 		"oA": 0,
 		"oAP": "/assets/favicons/android-chrome-192x192.png",
 		"oF": 0,
@@ -1045,7 +1045,7 @@
 		},
 	"/assets/favicons/android-chrome-512x512.png": {
 		"ft": 32768,
-		"iS": 6507,
+		"iS": 6595,
 		"oA": 0,
 		"oAP": "/assets/favicons/android-chrome-512x512.png",
 		"oF": 0,
@@ -1056,7 +1056,7 @@
 		},
 	"/assets/favicons/apple-touch-icon.png": {
 		"ft": 32768,
-		"iS": 1583,
+		"iS": 1968,
 		"oA": 0,
 		"oAP": "/assets/favicons/apple-touch-icon.png",
 		"oF": 0,
@@ -1074,7 +1074,7 @@
 		},
 	"/assets/favicons/favicon-16x16.png": {
 		"ft": 32768,
-		"iS": 650,
+		"iS": 570,
 		"oA": 0,
 		"oAP": "/assets/favicons/favicon-16x16.png",
 		"oF": 0,
@@ -1085,7 +1085,7 @@
 		},
 	"/assets/favicons/favicon-32x32.png": {
 		"ft": 32768,
-		"iS": 760,
+		"iS": 844,
 		"oA": 0,
 		"oAP": "/assets/favicons/favicon-32x32.png",
 		"oF": 0,
@@ -1101,55 +1101,11 @@
 		"oAP": "/assets/favicons/favicon.ico",
 		"oF": 0
 		},
-	"/assets/favicons/mstile-144x144.png": {
-		"ft": 32768,
-		"iS": 2183,
-		"oA": 0,
-		"oAP": "/assets/favicons/mstile-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"/assets/favicons/mstile-150x150.png": {
 		"ft": 32768,
-		"iS": 2318,
+		"iS": 3053,
 		"oA": 0,
 		"oAP": "/assets/favicons/mstile-150x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/mstile-310x150.png": {
-		"ft": 32768,
-		"iS": 2517,
-		"oA": 0,
-		"oAP": "/assets/favicons/mstile-310x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/mstile-310x310.png": {
-		"ft": 32768,
-		"iS": 4968,
-		"oA": 0,
-		"oAP": "/assets/favicons/mstile-310x310.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"/assets/favicons/mstile-70x70.png": {
-		"ft": 32768,
-		"iS": 1530,
-		"oA": 0,
-		"oAP": "/assets/favicons/mstile-70x70.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
