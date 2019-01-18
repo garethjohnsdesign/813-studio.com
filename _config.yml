@@ -21,8 +21,8 @@ defaults:
     video: 
     excerpt: 
     description: 
-    is-featured:
-    is-full-width:
+    is-featured: 
+    is-full-width: 
     images:
     - image: 
       aspect: 
