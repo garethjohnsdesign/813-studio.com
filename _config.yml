@@ -17,6 +17,8 @@ defaults:
     type: work
   values:
     image: 
+    project:
+    client:
     subject: 
     video: 
     excerpt: 
