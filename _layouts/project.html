@@ -76,7 +76,7 @@ layout: default
 </div>
 
   <div class="grid-x grid-padding-x grid-padding-y">
-    {% assign works = site.work %}
+    {% assign works = site.work | where_exp:"work","work.url != page.url" %}
     {% for work in works limit:3 %}
       <div class="small-12 medium-4 {% if work.is-full-width %}medium-12{% endif %} cell text-center">
         <a href="{{ work.url }}">
@@ -90,3 +90,4 @@ layout: default
   </div>
 </div>
 <!-- End Pagination -->
+
