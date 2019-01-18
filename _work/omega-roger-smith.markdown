@@ -1,7 +1,8 @@
 ---
-title: Seamaster 70th Anniversary
+title: Seamaster 70th Anniversary — Roger Smith OBE
 date: 2018-10-01 00:02:00 Z
 position: 6
+project: Seamaster 70th Anniversary
 subject: Roger Smith OBE
 image: "/uploads/roger-smith-04.jpg"
 video: https://www.youtube.com/watch?v=5NyAhWc8d8Q

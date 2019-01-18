@@ -29,7 +29,7 @@ layout: default
 <section class="grid-container">
 <div class="grid-x grid-padding-y align-center project__meta">
   <div class="small-8 medium-7 large-7 cell text-center">
-    <div class="h5 text-lowercase">{{ page.client }} — {{ page.title }}</div>
+    <div class="h5 text-lowercase">{{ page.client }} — {{ page.project }}</div>
     <div class="h5 text-lowercase">{{ page.subject }}</div>
   </div>
 </div>
@@ -82,7 +82,7 @@ layout: default
         <a href="{{ work.url }}">
           {% assign image = work.image %}
           <div class="margin-bottom-2 image" data-interchange="{% include images/interchange-img-small-12-medium-4-cell.html %}"></div>
-            <div class="text-lowercase">{{ work.client }} — {{ work.title }}</div>
+            <div class="text-lowercase">{{ work.client }} — {{ work.project }}</div>
             <div class="text-lowercase">{{ work.subject }}</div>
         </a>
       </div>

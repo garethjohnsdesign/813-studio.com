@@ -6,7 +6,7 @@
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="format-detection" content="telephone=no">
   
-  <title>{% if page.layout == 'home' %}{{ site.title }}{% else %}{{ page.title | escape }} {% if page.subject %}— {{page.subject}}{% endif %} — {{ site.title | escape }}{% endif %}</title>
+  <title>{% if page.layout == 'home' %}{{ site.title }}{% else %}{{ page.title | escape }} — {{ site.title | escape }}{% endif %}</title>
   
   <link rel="stylesheet" type="text/css" href="{{ "/assets/css/app.css" | prepend: site.baseurl }}">
   
