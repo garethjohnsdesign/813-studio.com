@@ -36,7 +36,7 @@ layout: default
                       <div class="grid-x align-center">
                         <div class="small-10 medium-10 large-8 cell">
                           <div class="text-lowercase">Client — {{ work.client }}</div>
-                          <div class="text-lowercase">Subject — {{ work.subject }}</div>
+                          {% if work.subject %}<div class="text-lowercase">Subject — {{ work.subject }}</div>{% endif %}
                           <div class="margin-top-2">{{ work.excerpt | markdownify }}</div>
                         </div>
                       </div>
@@ -70,7 +70,7 @@ layout: default
             
             <div class="meta padding-bottom-2">
             <div class="text-lowercase">{{ work.client }} {% if work.project %}— {{ work.project }}{% endif %}</div>
-            <div class="text-lowercase">{{ work.subject }}</div>
+            {% if work.subject %}<div class="text-lowercase">{{ work.subject }}</div>{% endif %}
             </div>
 
         </div>
