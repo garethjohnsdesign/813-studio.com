@@ -7442,7 +7442,8 @@ a:focus {
 
 body {
   cursor: default;
-  font-kerning: normal; }
+  font-kerning: normal;
+  margin: 0; }
 
 svg {
   max-width: 100%; }
