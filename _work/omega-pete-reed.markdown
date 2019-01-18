@@ -2,10 +2,12 @@
 title: Seamaster 70th Anniversary — Pete Reed OBE
 date: 2018-10-01 00:02:00 Z
 position: 6
-project: Seamaster 70th Anniversary
-subject: Pete Reed OBE
 image: "/uploads/pete-reed-02.jpg"
+project: Seamaster 70th Anniversary
+client: Omega
+subject: Pete Reed OBE
 video: https://www.youtube.com/watch?v=J8-30Eema6Q
+is-featured: true
 images:
 - image: "/uploads/pete-reed-01.jpg"
   aspect: landscape
@@ -25,8 +27,6 @@ images:
   aspect: landscape
 - image: "/uploads/pete-reed-10.jpg"
   aspect: landscape
-client: Omega
-is-featured: true
 layout: project
 ---
 

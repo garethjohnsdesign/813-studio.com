@@ -2,10 +2,12 @@
 title: Seamaster 70th Anniversary — Michael Hill
 date: 2018-10-01 00:02:00 Z
 position: 6
-project: Seamaster 70th Anniversary
-subject: Michael Hill
 image: "/uploads/michael-hill-01.jpg"
+project: Seamaster 70th Anniversary
+client: Omega
+subject: Michael Hill
 video: https://www.youtube.com/watch?v=cyWTTgpfuQw
+is-featured: true
 images:
 - image: "/uploads/michael-hill-02.jpg"
   aspect: landscape
@@ -15,9 +17,6 @@ images:
   aspect: landscape
 - image: "/uploads/michael-hill-05.jpg"
   aspect: landscape
-client: Omega
-is-featured: true
-is-full-width: false
 layout: project
 ---
 

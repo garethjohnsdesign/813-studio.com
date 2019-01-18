@@ -2,10 +2,12 @@
 title: Seamaster 70th Anniversary — Roger Smith OBE
 date: 2018-10-01 00:02:00 Z
 position: 6
-project: Seamaster 70th Anniversary
-subject: Roger Smith OBE
 image: "/uploads/roger-smith-04.jpg"
+project: Seamaster 70th Anniversary
+client: Omega
+subject: Roger Smith OBE
 video: https://www.youtube.com/watch?v=5NyAhWc8d8Q
+is-featured: true
 images:
 - image: "/uploads/roger-smith-01.jpg"
   aspect: landscape
@@ -19,8 +21,6 @@ images:
   aspect: landscape
 - image: "/uploads/roger-smith-06.jpg"
   aspect: landscape
-client: Omega
-is-featured: true
 layout: project
 ---
 
