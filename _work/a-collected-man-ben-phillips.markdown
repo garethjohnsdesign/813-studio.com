@@ -10,14 +10,12 @@ images:
 - image: "/uploads/ben-phillips-drakes-london-02.jpg"
   aspect: landscape
 - image: "/uploads/ben-phillips-drakes-london-03.jpg"
-  aspect: landscape
+  aspect: 'portrait '
 - image: "/uploads/ben-phillips-drakes-london-04.jpg"
   aspect: landscape
 - image: "/uploads/ben-phillips-drakes-london-05.jpg"
   aspect: landscape
 - image: "/uploads/ben-phillips-drakes-london-06.jpg"
-  aspect: landscape
-- image: "/uploads/ben-phillips-drakes-london-07.jpg"
   aspect: landscape
 - image: "/uploads/ben-phillips-drakes-london-08.jpg"
   aspect: landscape
