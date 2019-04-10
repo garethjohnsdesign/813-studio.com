@@ -2,7 +2,7 @@
 title: Selfridges – Look-book
 date: 2019-04-10 12:53:00 Z
 image: "/uploads/selfridges-campaign-813-01.jpg"
-project: Look-book
+project: Catalogue
 client: Selfridges
 subject: 'AW17 Menswear '
 is-featured: true
