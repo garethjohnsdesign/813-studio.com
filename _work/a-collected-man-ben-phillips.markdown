@@ -9,8 +9,6 @@ is-featured: true
 images:
 - image: "/uploads/ben-phillips-drakes-london-02.jpg"
   aspect: landscape
-- image: "/uploads/ben-phillips-drakes-london-03.jpg"
-  aspect: 'portrait '
 - image: "/uploads/ben-phillips-drakes-london-04.jpg"
   aspect: landscape
 - image: "/uploads/ben-phillips-drakes-london-05.jpg"
