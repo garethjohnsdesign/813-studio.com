@@ -1,7 +1,7 @@
 ---
 title: Seamaster 70th Anniversary — Roger Smith OBE
 date: 2018-10-02 00:02:00 Z
-position: 3
+position: 2
 image: "/uploads/roger-smith-04.jpg"
 project: Seamaster 70th Anniversary
 client: Omega

@@ -1,7 +1,7 @@
 ---
 title: Seamaster 70th Anniversary — Pete Reed OBE
 date: 2018-10-01 00:02:00 Z
-position: 2
+position: 1
 image: "/uploads/pete-reed-02.jpg"
 project: Seamaster 70th Anniversary
 client: Omega
