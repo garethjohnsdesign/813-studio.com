@@ -16,8 +16,6 @@ images:
   aspect: landscape
 - image: "/uploads/selfridges-campaign-813-05.jpg"
   aspect: landscape
-- image: "/uploads/selfridges-campaign-813-06.jpg"
-  aspect: landscape
 ---
 
 The second of three look-book projects for Selfridges in London. We were commissioned to art-direct, photograph and produce a physical look-book displaying the current menswear offering. The final product was shot and produced in the UK and delivered to the client upon completion.  
