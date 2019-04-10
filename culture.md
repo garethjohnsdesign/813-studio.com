@@ -34,10 +34,10 @@ images:
 - "/uploads/culture-30.jpg"
 - "/uploads/culture-31.jpg"
 - "/uploads/culture-32.jpg"
-- "/uploads/culture-33.jpg"
 - "/uploads/culture-34.jpg"
-- "/uploads/culture-35.jpg"
+- "/uploads/culture-33.jpg"
 - "/uploads/culture-36.jpg"
+- "/uploads/culture-35.jpg"
 - "/uploads/culture-37.jpg"
 layout: culture
 ---
