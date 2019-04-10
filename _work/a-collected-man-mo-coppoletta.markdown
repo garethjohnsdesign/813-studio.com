@@ -1,6 +1,7 @@
 ---
 title: A Collected Man – Mo Coppoletta
 date: 2019-04-10 12:20:00 Z
+position: 3
 image: "/uploads/BANNER-DSC_4961-EDITED.jpg"
 project: Content Production
 client: A Collected Man
