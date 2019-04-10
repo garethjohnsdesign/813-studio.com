@@ -1,7 +1,7 @@
 ---
 title: A Collected Man – Aurel Bacs
 date: 2019-04-10 12:30:00 Z
-position: 5
+position: 7
 image: "/uploads/AUREL-BACS-INSIDE-BANNER.jpg"
 project: Content Production
 client: A Collected Man

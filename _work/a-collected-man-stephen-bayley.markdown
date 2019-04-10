@@ -1,7 +1,7 @@
 ---
 title: Between the Hours Of — Stephen Bayley
 date: 2018-10-01 00:02:00 Z
-position: 7
+position: 9
 image: "/uploads/stephen-bayley-03.jpg"
 project: Between the Hours Of
 client: A Collected Man

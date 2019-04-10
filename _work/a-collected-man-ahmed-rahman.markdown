@@ -1,6 +1,7 @@
 ---
 title: A Collected Man – Ahmed Rahman
 date: 2019-04-10 13:22:00 Z
+position: 3
 image: "/uploads/011-BANNER-DSC_5636-EDITED.jpg"
 project: Content Production
 client: A Collected Man
