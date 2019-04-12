@@ -1,7 +1,7 @@
 ---
 title: A Collected Man – Jasper Eckert
 date: 2019-04-10 13:09:00 Z
-position: 0
+position: 1
 image: "/uploads/Porsche_911_from_Fine_Eleven_interview_in_Hamburg_at_A_Collected_Man_2048x2048.jpg"
 project: Content Production
 client: A Collected Man

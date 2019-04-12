@@ -1,7 +1,7 @@
 ---
 title: Seamaster 70th Anniversary — Michael Hill
 date: 2018-10-01 00:02:00 Z
-position: 8
+position: 10
 image: "/uploads/michael-hill-01.jpg"
 project: Seamaster 70th Anniversary
 client: Omega

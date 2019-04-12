@@ -1,7 +1,7 @@
 ---
 title: Seamaster 70th Anniversary — Craig Muir
 date: 2018-10-01 00:02:00 Z
-position: 6
+position: 8
 image: "/uploads/craig-muir-03.jpg"
 project: Seamaster 70th Anniversary
 client: Omega
