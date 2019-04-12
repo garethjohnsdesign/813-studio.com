@@ -2,6 +2,9 @@
 title: A Collected Man – Kristian Haagen
 date: 2019-04-12 20:45:00 Z
 image: "/uploads/012-DSC_6524_2048x2048.jpg"
+project: Content Production
+client: A Collected Man
+subject: Kristian Haagen
 is-featured: true
 images:
 - image: "/uploads/03-DSC_6652_2048x2048.jpg"
