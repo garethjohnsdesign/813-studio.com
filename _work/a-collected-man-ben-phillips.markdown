@@ -1,7 +1,7 @@
 ---
 title: A Collected Man — Ben Phillips
 date: 2019-04-10 11:50:00 Z
-position: 3
+position: 2
 image: "/uploads/ben-phillips-drakes-london-01.jpg"
 project: Content Production
 client: A Collected Man
