@@ -6,7 +6,7 @@ pagination:
   collection: work
   sort_field: position
   sort_reverse: false
-  per_page: 12
+  per_page: 24
 layout: work
 ---
 
