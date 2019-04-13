@@ -83,7 +83,7 @@ compress_html:
 pagination:
   collection: posts
   enabled: true
-  per_page: 6
+  per_page: 24
   limit: 0
   permalink: "/:num/"
   title: ":title — :num of :max"
