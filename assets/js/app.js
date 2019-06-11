@@ -16,7 +16,7 @@ $(document).foundation();
 // --------------------
 
 $(function() {
-  if($.cookie('showed_modal') != "true") {
+
 
     $(".loader").removeClass("hide");
 
@@ -103,8 +103,6 @@ setInterval(function() {
      $(".loader").addClass("loaded");
     }, 5000); 
 
-    $.cookie('showed_modal', 'true', { expires: 365 }); 
-  }
 });
 
 // 2. Animate on Scroll
