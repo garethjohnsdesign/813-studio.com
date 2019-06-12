@@ -1,7 +1,6 @@
 ---
 title: A Collected Man – Philippe Dufour
 date: 2019-04-12 20:50:00 Z
-published: false
 position: 6
 image: "/uploads/Philippe_Dufour_interview_at_A_Collected_Man_6054013c-4afd-49d2-912b-ea8a77d00d74.jpg"
 project: Content Production
