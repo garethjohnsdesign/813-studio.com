@@ -6,7 +6,7 @@ image: "/uploads/01-DSC_8124-MID.jpg"
 project: Content Production
 client: A Collected Man
 subject: Hector Muelas
-is-featured: 'True'
+is-featured: true
 images:
 - image: "/uploads/About_Town_Paris_with_Hector_Muelas10_2048x2048.jpg"
   aspect: landscape
