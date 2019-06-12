@@ -6,7 +6,7 @@ image: "/uploads/Philippe_Dufour_interview_at_A_Collected_Man_6054013c-4afd-49d2
 project: Content Production
 client: A Collected Man
 subject: Philippe Dufour
-is-featured: true
+is-featured: false
 images:
 - image: "/uploads/DUFOUR-05.jpg"
   aspect: landscape
