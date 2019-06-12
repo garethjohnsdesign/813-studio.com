@@ -24,4 +24,4 @@ images:
 Field name: 
 ---
 
-As part of an ongoing series of interviews for vintage watch retailer, A Collected Man, we photographed and interviewed Hector Muelas, CBO of Rimowa. We flew to Paris to get Hector's inside view of the must visit locations in Paris, including where to eat, shop and drink. This piece of content sits within a larger editorial strategy which we devised and implemented for A Collected Man, to develop their corporate personality and attract new business.
+As part of an ongoing series of interviews for vintage watch retailer, A Collected Man, we photographed and interviewed Hector Muelas, CBO of Rimowa. We flew to Paris to get Hector's inside view of the must visit locations in Paris, including where to eat, shop and drink. This piece of content sits within a larger editorial strategy which we devised and implemented for A Collected Man, to develop their corporate personality and attract new business. 
