@@ -6,7 +6,7 @@ image: "/uploads/selfridges-campaign-813-01.jpg"
 project: Catalogue
 client: Selfridges
 subject: 'AW17 Menswear '
-is-featured: true
+is-featured: false
 images:
 - image: "/uploads/selfridges-campaign-813-02.jpg"
   aspect: landscape
