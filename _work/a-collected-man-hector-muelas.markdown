@@ -1,6 +1,7 @@
 ---
 title: A Collected Man - Hector Muelas
 date: 2019-06-12 11:01:00 Z
+position: 0
 image: "/uploads/01-DSC_8124-MID.jpg"
 project: Content Production
 client: A Collected Man
