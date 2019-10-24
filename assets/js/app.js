@@ -1,3 +1,19 @@
+// 1. Imports
+// ----------
+
+import $ from "jquery";
+import Foundation from 'foundation-sites';
+import "lightGallery";
+import "lg-fullscreen";
+import "lg-video";
+import "lg-autoplay";
+import AOS from 'aos';
+import Swiper from 'swiper';
+import Cookies from 'js-cookie'
+import Swup from 'swup';
+import SwupGaPlugin from '@swup/ga-plugin';
+
+
 $(document).ready(function() {
   function init() {
 
@@ -182,9 +198,7 @@ $('.video').lightGallery({
 
   var swup = new Swup({
 
-    plugins: [
-      swupGaPlugin
-    ],
+    plugins: [new SwupGaPlugin()],
 
     animationSelector: '[class*="swup-transition-"]',
     elements: ['#main']

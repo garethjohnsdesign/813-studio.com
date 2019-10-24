@@ -715,7 +715,7 @@ $header-styles: (
 */
 /**
  * Foundation for Sites by ZURB
- * Version 6.5.1
+ * Version 6.5.3
  * foundation.zurb.com
  * Licensed under MIT Open Source
  */
@@ -904,7 +904,7 @@ $header-styles: (
   opacity: 1; }
 
 .hinge-out-from-top.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateX(-90deg);
+  transform: perspective(2000px) rotateX(90deg);
   opacity: 0; }
 
 .hinge-out-from-right.mui-leave {
@@ -916,7 +916,7 @@ $header-styles: (
   opacity: 1; }
 
 .hinge-out-from-right.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateY(-90deg);
+  transform: perspective(2000px) rotateY(90deg);
   opacity: 0; }
 
 .hinge-out-from-bottom.mui-leave {
@@ -928,7 +928,7 @@ $header-styles: (
   opacity: 1; }
 
 .hinge-out-from-bottom.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateX(90deg);
+  transform: perspective(2000px) rotateX(-90deg);
   opacity: 0; }
 
 .hinge-out-from-left.mui-leave {
@@ -940,7 +940,7 @@ $header-styles: (
   opacity: 1; }
 
 .hinge-out-from-left.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateY(90deg);
+  transform: perspective(2000px) rotateY(-90deg);
   opacity: 0; }
 
 .hinge-out-from-middle-x.mui-leave {
@@ -952,7 +952,7 @@ $header-styles: (
   opacity: 1; }
 
 .hinge-out-from-middle-x.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateX(-90deg);
+  transform: perspective(2000px) rotateX(90deg);
   opacity: 0; }
 
 .hinge-out-from-middle-y.mui-leave {
@@ -964,7 +964,7 @@ $header-styles: (
   opacity: 1; }
 
 .hinge-out-from-middle-y.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateY(-90deg);
+  transform: perspective(2000px) rotateY(90deg);
   opacity: 0; }
 
 .scale-in-up.mui-enter {
@@ -1110,13 +1110,13 @@ $header-styles: (
     transform: rotate(0); } }
 
 .spin-ccw {
-  animation-name: spin-cw-1turn; }
+  animation-name: spin-ccw-1turn; }
 
-@keyframes spin-cw-1turn {
+@keyframes spin-ccw-1turn {
   0% {
     transform: rotate(0); }
   100% {
-    transform: rotate(1turn); } }
+    transform: rotate(-1turn); } }
 
 .wiggle {
   animation-name: wiggle-7deg; }
@@ -1847,7 +1847,8 @@ textarea {
   padding-right: 0.625rem;
   padding-left: 0.625rem;
   max-width: 75rem;
-  margin: 0 auto; }
+  margin-left: auto;
+  margin-right: auto; }
   @media print, screen and (min-width: 40em) {
     .grid-container {
       padding-right: 0.9375rem;
@@ -1856,7 +1857,8 @@ textarea {
     padding-right: 0.625rem;
     padding-left: 0.625rem;
     max-width: 100%;
-    margin: 0 auto; }
+    margin-left: auto;
+    margin-right: auto; }
     @media print, screen and (min-width: 40em) {
       .grid-container.fluid {
         padding-right: 0.9375rem;
@@ -1865,7 +1867,8 @@ textarea {
     padding-right: 0;
     padding-left: 0;
     max-width: 100%;
-    margin: 0 auto; }
+    margin-left: auto;
+    margin-right: auto; }
 
 .grid-x {
   display: flex;
@@ -3444,7 +3447,7 @@ a {
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
-    color: #403f3f; }
+    color: #404040; }
   a img {
     border: 0; }
 
@@ -5713,7 +5716,7 @@ ol.list-upper-roman {
   opacity: 1; }
 
 .hinge-out-from-top.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateX(-90deg);
+  transform: perspective(2000px) rotateX(90deg);
   opacity: 0; }
 
 .hinge-out-from-right.mui-leave {
@@ -5725,7 +5728,7 @@ ol.list-upper-roman {
   opacity: 1; }
 
 .hinge-out-from-right.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateY(-90deg);
+  transform: perspective(2000px) rotateY(90deg);
   opacity: 0; }
 
 .hinge-out-from-bottom.mui-leave {
@@ -5737,7 +5740,7 @@ ol.list-upper-roman {
   opacity: 1; }
 
 .hinge-out-from-bottom.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateX(90deg);
+  transform: perspective(2000px) rotateX(-90deg);
   opacity: 0; }
 
 .hinge-out-from-left.mui-leave {
@@ -5749,7 +5752,7 @@ ol.list-upper-roman {
   opacity: 1; }
 
 .hinge-out-from-left.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateY(90deg);
+  transform: perspective(2000px) rotateY(-90deg);
   opacity: 0; }
 
 .hinge-out-from-middle-x.mui-leave {
@@ -5761,7 +5764,7 @@ ol.list-upper-roman {
   opacity: 1; }
 
 .hinge-out-from-middle-x.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateX(-90deg);
+  transform: perspective(2000px) rotateX(90deg);
   opacity: 0; }
 
 .hinge-out-from-middle-y.mui-leave {
@@ -5773,7 +5776,7 @@ ol.list-upper-roman {
   opacity: 1; }
 
 .hinge-out-from-middle-y.mui-leave.mui-leave-active {
-  transform: perspective(2000px) rotateY(-90deg);
+  transform: perspective(2000px) rotateY(90deg);
   opacity: 0; }
 
 .scale-in-up.mui-enter {
@@ -5919,13 +5922,13 @@ ol.list-upper-roman {
     transform: rotate(0); } }
 
 .spin-ccw {
-  animation-name: spin-cw-1turn; }
+  animation-name: spin-ccw-1turn; }
 
-@keyframes spin-cw-1turn {
+@keyframes spin-ccw-1turn {
   0% {
     transform: rotate(0); }
   100% {
-    transform: rotate(1turn); } }
+    transform: rotate(-1turn); } }
 
 .wiggle {
   animation-name: wiggle-7deg; }
@@ -6015,6 +6018,9 @@ Single-colored icons can be modified like so:
 .icon-selfridges {
   width: 6.103515625em;
   font-size: 1.5rem; }
+
+.icon-longines {
+  width: 4.1337890625em; }
 
 .icon-barbour {
   width: 5em;
